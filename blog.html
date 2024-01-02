@@ -1,0 +1,98 @@
+---
+pagination: 
+  enabled: true
+layout: default
+featured_image: https://source.unsplash.com/random
+seo:
+ - title: Blog | The In-Between
+   description:
+   social_image:
+   twitter_card:
+   keywords:
+   hide-from-google: false
+---
+
+<!------------------------ Headline ------------------------>
+
+<section class="padded-md grid tall-50 bg-accent-light-split-bottom">
+
+    <div class="col-12-middle text-center">
+        <h2 class="editable headline">
+            Blog 
+        </h3>
+    </div>
+
+</section>
+
+
+<!------------------------ Split blog loop (part 1) ------------------------>
+<section class="padded-md">
+
+    <div class="capped-width grid-spaceAround">
+
+        {% for post in site.posts limit:2 %}
+
+            {% include post-loop-item-square.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<!------------------------ CTA Banner  ------------------------>
+<section class="bg-featured-light text-light padded-sm capped-width"> 
+
+    <div class="capped-width-narrow text-center">
+        <h2 class="editable"> A catchy heading </h2>
+        <p class="editable"> This is a call-to-action to drive traffic somewhere important </p>
+        <a href="#" class="button accent-button editable">Let's do this</a>
+    </div>
+
+</section> 
+
+
+<!------------------------ Split blog loop (part 2) ------------------------>
+<section class="padded-md">
+
+    <div class="capped-width grid-spaceAround">
+
+        {% for post in site.posts limit:12 offset:2 %}
+
+                {% include post-loop-item-square.html %}
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- This checks if there are more than 15 blog posts, and if there are shows a link to the full blog archive -->
+
+    {% assign post_count = paginator.posts | size %}
+
+        {% if paginator.total_pages > 1 %}
+        <ul>
+        {% if paginator.previous_page %}
+        <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+        </li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li class="center padded-md">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button">See More</a>
+        </li>
+        {% endif %}
+        </ul>
+        {% endif %}
+    
+    <!-- {% if post_count > 15 %}
+        <div class="center padded-md">
+            <a class="button" href="/blog-archive"> See More </a>
+        </div>
+       
+    {% endif %} -->
+
+</section>
+
+

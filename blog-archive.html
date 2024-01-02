@@ -1,0 +1,47 @@
+---
+layout: default
+seo:
+ - title: Blog Archive
+---
+
+<!------------------------ Split blog loop (part 1) ------------------------>
+<section class="padded-sm archive">
+
+    <div class="capped-width-narrow padded-05 center margin-b-1">
+        <h2> Blog Archive </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat necessitatibus? Praesentium fugit ex neque magni, possimus, iste itaque voluptatem id doloremque voluptas consequatur dolor cumque! Dolores possimus laboriosam adipisci.</p>
+    </div>
+</section>
+
+<section class="padded-lr capped-width grid">
+
+    {% for post in site.posts limit:100 %}
+
+    <div class="padded-2 sm-padded-1 col-6_md-12">
+        <div class="post-item grid">
+            <div class="col-3-middle">
+                <a href="{{ post.url }}">
+                    <div class="bg-image square" style="background-image:url( '{{ post.featured_image }}' );"></div>
+                </a>
+
+            </div>
+            <div class="col-9-middle padded-1">
+
+                {% for item in post.categories %}
+                    <a class="tag" href='/{{ item | replace: " ", "-"  }}'> {{item}} </span>
+                {% endfor %}
+        
+                <a href="{{ post.url }}" class="blog-title">
+                    <h4 class="padded-tb subtle-heading-xs"> {{ post.title }} </h4>
+                </a>
+                <p class="subtitle hide-xs"> {{ post.description }} </p>
+        
+            </div>
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+
+</section>

@@ -2,23 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title> {{page.title}} </title>
+
+    {% include head.html %}
+    
 </head>
 
 <body>
-    <header>
-        This is our header
-    </header>
 
-    {{ content }}
+    {% include inline-styles.html %}
+    
+    {% include site-header.html %}
 
-    <footer>
-        This is our footer
-    </footer>
+    {{content}}
+
+    {% include site-footer.html %}
+
+    <!-- Add jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Animate on Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Lightgallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+
+    <!-- Our custom Javascript file -->
+    <script src="/main.js"></script>
+
 </body>
 
 </html>

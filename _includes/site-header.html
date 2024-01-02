@@ -1,0 +1,68 @@
+<header class="bg-accent text-light padded-sm">
+  <div class="grid-spaceBetween header-nav">
+
+    <div class="col-top">
+      <a href="/" class="logo"> The In-Between </a>
+    </div> 
+
+    <div class="col-top-right hide-sm">
+        <nav class="">
+          <a href="/about"> About </a>
+
+          <div class="dropdown">
+            <span class="dropdown-title"><a href="/blog">Blog</a></span>
+  
+            <div class="dropdown-content">
+              {% for cat in site.archives %}
+                  <a href="{{cat.url}}"> {{cat.category | capitalize}} </a>
+              {% endfor %}
+  
+            </div> 
+          </div>
+  
+          <a href="/portfolio"> Portfolio </a>
+          <a href="/contact"> Contact </a>
+        </nav>
+    </div>
+
+    <!-- Hamburger menu button -->
+    <div class="col-top show-sm text-right">
+        <div class="hamburger-button">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+  </div>
+
+  <!-- Hamburger menu -->
+  <div class="show-sm">
+  <div class="mobile-menu padded-sm">
+    <nav class="text-center">
+        <a href="/index">Home</a>
+        <a href="/about"> About </a>
+
+          <div class="mobile-dropdown">
+            <span class="mobile-dropdown-title">Blog <i class="fa-regular fa-arrow-down"></i></span>
+  
+            <div class="mobile-dropdown-content hidden">
+              <a href="/blog"> All Posts </a>
+              {% for cat in site.archives %}
+              <a href="{{cat.url}}"> {{cat.category | capitalize}} </a>
+              {% endfor %}
+            </div> 
+          </div>
+  
+          <a href="/portfolio"> Portfolio </a>
+          <a href="/contact"> Contact </a>
+    </nav>
+  </div>
+  </div>
+</header>
+
+
+
+<!-- 
+  {% for link in site.archives %}
+              <a href="{{link.url}}"> {{ link.category | capitalize }} </a>
+          {% endfor %}
+
+--> 

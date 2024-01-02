@@ -1,8 +1,99 @@
 ---
 layout: default
-title: Homepage
+banner_image: images/tori-3.jpg
+about_image: images/tori-6.jpg
+seo:
+  title: The In-Between
+  description: A blog about the middle.
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
 ---
-<h1>Welcome to your homepage!</h1>
-<section>
-    This is a page section only on the home page
+
+<!------------------------ Image Banner  ------------------------>
+<section class="bg-image padded-md grid bg-overlay tall-70 "
+         style="background-image: url('{{ page.banner_image }}');
+                background-position: 0 40%;">
+
+    <div class="col-12-middle text-center" data-aos="fade" data-aos-duration="700" data-aos-easing="ease-in">
+        <h1 class="text-light">The In-Between </h1>
+    </div>
+
+</section>
+
+<!------------------------ About  ------------------------>
+<section class="padded-md grid-spaceAround-middle bg-accent-light-split-right tall-70">
+    <div class="col-4_sm-12-middle">
+        <div class="bg-image portrait leaf-frame-1 drop-shadow padded-sm" data-aos="fade" data-aos-duration="700" data-aos-easing="ease-in"
+             style="background-image: url('{{ page.about_image }}');"></div>
+    </div>
+    <div class="col-7_sm-12-middle padded-md">
+        <h2 class="editable">a blog about the middle.</h2>
+        <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, labore quas eaque, vitae voluptates cum nihil dignissimos porro fuga sapiente aspernatur facere, similique tenetur vero eum ipsum vel voluptate sit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione dolore earum voluptatem minus! Amet possimus, cupiditate omnis ea facere provident alias quis autem quia ipsum accusamus obcaecati aliquam repellat.</p>
+        <a href="/about" class="button featured-button">About Me</a>
+    </div>
+</section>
+
+
+
+
+<!------------------------ Featured blog loop ------------------------>
+<section class="padded-2 bg-featured-light tall-100">
+
+    <div class="capped-width grid-center">
+
+        <div class="col-12 padded-sm text-center">
+            <h2 class="editable"> Featured Posts </h2>
+        </div>
+
+        {% assign featured_posts = site.posts | where: 'featured', true %}
+
+        {% for post in featured_posts limit:3 %}
+
+            <div class="col-4_sm-12 post-item padded-1" data-aos="flip-left" data-aos-duration="700" data-aos-easing="linear">
+                <div class="card rounded drop-shadow">
+                    <a href="{{ post.url }}">
+                        <div class="bg-image portrait post-item-image" style="background-image:url( '{{ post.featured_image }}' );"></div>
+                    </a>
+
+                    <div class="padded-lg">
+                        
+                        {% for item in post.categories %}
+                            <a href='/{{ item | replace: " ", "-"  }}' class="tag"> {{item}} </a>
+                        {% endfor %}
+
+                        <a href="{{ post.url }}" class="blog-title">
+                            <h2 class="padded-t-05 padded-b-1 margin-t-05"> {{ post.title }} </h2>
+                        </a>
+                        <p> {{ post.description | truncatewords: 17 }} </p>
+                        <a href="{{ post.url }}" class="subtle-button"> Read More </a>
+
+                    </div>
+                </div>
+                
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+
+
+
+<!------------------------ Subscribe banner  ------------------------>
+{% include subscribe-banner.html %}
+
+
+
+<!------------------------ Topics  ------------------------>
+<section class=" bg-accent-light-split-bottom padded-2 tall-60">
+    <div class="padded-sm text-center">
+        <h2 class="editable"> Topics </h2>
+    </div>
+    {% include category-loop-square.html %}
 </section>
