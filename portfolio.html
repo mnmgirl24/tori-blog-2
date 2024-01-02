@@ -9,7 +9,7 @@ layout: default
 <section class="padded-md grid tall-50 bg-featured-light-split-top">
 
     <div class="col-12-middle text-center">
-        <h2 class="editable headline">
+        <h2 class="editable headline dec-text">
             Portfolio 
         </h3>
     </div>
@@ -17,32 +17,10 @@ layout: default
 </section>
 
 
-<!-- <section class="padded-sm capped-width">
-    {% for project in site.portfolio %}
-    <div class="padded-md ">
-        
-        <div class="grid-middle card drop-shadow flex-flip-alternate">
-            
-            <div class="col-4_sm-12-middle padded-sm">
-                <div class="bg-image portrait bg-pos-t" style="background-image:url( '{{ project.featured_image }}' );"></div>
-            </div>
-            
-            <div class="col-8_sm-12-middle padded-sm">
-                <h3 class="portfolio-name">{{ project.title }}</h3>
-                <p class="">{{ project.description }}</p>
-                <a href="{{ project.live_url }}" class="button accent-button" target="_blank">Read More</a>
-            </div>
-        </div>
-        
-    </div>
-    {% endfor %}
-    
-</section> -->
-
-<section class="padded-md">
+<section class="padded-md padded-t-05">
 
     {% for project in site.portfolio %}
-        <div class="grid flex-flip-alternate capped-width card" data-aos="fade" data-aos-duration="700" data-aos-easing="ease-in">
+        <div class="grid flex-flip-alternate capped-width card margin-t-2 margin-b-2" data-aos="fade" data-aos-duration="700" data-aos-easing="ease-in">
             <div class="col-6_sm-12-middle padded-sm">
                 <div class="bg-image landscape"
                      style="background-image: url('{{ project.featured_image }}');" alt="{{ item.project }}"></div>
