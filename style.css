@@ -339,6 +339,7 @@ p:last-child {
 .subtitle       { font-size: 0.8rem; }
 .lightweight    { font-weight: lighter; }
 .headline       { font-size: 10vw; }
+.dec-text       { font-family: "Yeseva One", serif }
 
 
 /* --------------- Blogging elements ----------- */
