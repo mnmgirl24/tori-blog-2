@@ -4,7 +4,7 @@ collections:
     permalink: /posts/:year/:slug
   archives: 
     output: true
-    permalink: /:title
+    permalink: /blog/category/:title
   portfolio:
     output: true 
     permalink: /portfolio/:year/:slug

@@ -10,60 +10,48 @@ seo:
    hide-from-google: false
 ---
 
+<section class="blog-page-section">
+
 <!------------------------ Headline ------------------------>
 
-<section class="padded-md grid tall-50 bg-accent-light-split-bottom">
-
-    <div class="col-12-middle text-center">
-        <h2 class="editable headline dec-text">
-            Blog 
-        </h3>
-    </div>
-
-</section>
+<div class="padded-md tall-50 bg-accent-light-split-bottom blog-page-header">
+    <h3 class="text-center headline dec-text">Blog</h3>
+</div>
 
 
 <!------------------------ Split blog loop (part 1) ------------------------>
-<section class="padded-md padded-t-05 bg-accent-light-split-top">
+<div class="blog-post-list bg-accent-light-split-top">
 
-    <div class="capped-width grid-spaceAround">
-
-        {% for post in site.posts limit:2 %}
+        {% for post in site.posts limit:3 %}
 
             {% include post-loop-item-square.html %}
 
         {% endfor %}
 
-    </div>
-
-</section>
+</div>
 
 
 <!------------------------ CTA Banner  ------------------------>
-<section class="bg-featured-light text-light padded-sm capped-width"> 
+<div class="bg-featured-light text-light cta"> 
 
-    <div class="capped-width-narrow text-center">
+    <div class="text-center">
         <h2 class="editable"> A catchy heading </h2>
         <p class="editable"> This is a call-to-action to drive traffic somewhere important </p>
         <a href="#" class="button accent-button editable">Let's do this</a>
     </div>
 
-</section> 
+</div> 
 
 
 <!------------------------ Split blog loop (part 2) ------------------------>
-<section class="padded-md">
+<div class="blog-post-list">
 
-    <div class="capped-width grid-spaceAround">
-
-        {% for post in site.posts limit:12 offset:2 %}
+        {% for post in site.posts limit:12 offset:3 %}
 
                 {% include post-loop-item-square.html %}
 
         {% endfor %}
 
-    </div>
+</div>
 
 </section>
-
-

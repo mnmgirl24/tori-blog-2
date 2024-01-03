@@ -7,8 +7,8 @@ description: >-
 author: Tina May
 featured: true
 categories:
-  - travel
-  - life
+  - writing
+  - video
 featured_image: https://source.unsplash.com/random?sig=7
 seo:
   title:

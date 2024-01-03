@@ -1,31 +1,17 @@
-<!-- <div class="col-12-middle text-center">
-    <h3 class="editable headline">
-      {{ page.title }}
-    </h3>
-    <p>{{ page.description_html }}</p>
-</div> -->
+<section class="blog-page-section">
 
-
-<section class="padded-md">
-
-    <div class="capped-width grid-center">
-
-        <div class="col-9 padded-05 center margin-b-1">
-
-            <div class="padded-sm tall-50">
-                <h3 class="text-center headline">{{ page.title }}</h3>
+            <div class="padded-md tall-50 bg-accent-light-split-top blog-page-header">
+                <h3 class="text-center headline dec-text">{{ page.title }}</h3>
                 <p>{{ page.description_html }}</p>
             </div>
-            
 
-        </div>
-
+            <div class="blog-post-list">
             {% for post in site.categories[page.category] limit:12 %}
 
                 {% include post-loop-item-square.html %}
 
             {% endfor %}
+        </div>
 
-    </div>
 
 </section>

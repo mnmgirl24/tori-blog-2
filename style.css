@@ -30,12 +30,12 @@ section { position: relative; }
 .capped-width-v-narrow  { max-width: 800px;  margin: auto; }
 
 
-.tall-100 { min-height: 100vh; }
-.tall-90  { min-height: 90vh; }
-.tall-80  { min-height: 80vh; }
-.tall-70  { min-height: 70vh; }
-.tall-60  { min-height: 60vh; }
-.tall-50  { min-height: 50vh; }
+.tall-100 { min-height: 100svh; }
+.tall-90  { min-height: 90svh; }
+.tall-80  { min-height: 80svh; }
+.tall-70  { min-height: 70svh; }
+.tall-60  { min-height: 60svh; }
+.tall-50  { min-height: 50svh; }
 
 /* Padding Utility Classes */ 
 .padded-sm { padding: 2.5%; }
@@ -613,6 +613,47 @@ footer h3 {font-size: 1.4rem;}
 
 /* ------------ Blogging elements  ----------------------- */
 
+/* Blog pages */
+.blog-page-section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center; 
+}
+
+.blog-page-header {
+  grid-column: span 12; 
+}
+
+.blog-post-list {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  padding: 0 5%;
+  gap: 2rem;
+}
+
+.blog-post-list:last-child {
+  padding-bottom: 5%;
+}
+
+.blog-post {
+  grid-column: span 4;
+  justify-self: center;
+  margin: auto;
+}
+
+
+.cta {
+  grid-column: span 12;
+  justify-self: center;
+  margin: 3rem auto;
+  padding: 2.5rem 5rem; 
+}
+
 
 
 /* Post Loop Item  */
@@ -632,6 +673,10 @@ footer h3 {font-size: 1.4rem;}
   font-size: 0.8rem;
   margin-right: 0.4rem;
   text-decoration: none;
+}
+
+.tag:hover {
+  color: var(--accent); 
 }
 
 .post-info {
