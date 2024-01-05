@@ -1,20 +1,20 @@
-<div class="padded-2 app">
-    <ul class="carousel hs full ">
+<div class="padded-2 ">
+    <ul class="carousel">
 
         {% for topic in site.archives %}
 
-        <li class="item carousel-card drop-shadow bg-image post-item-image bg-overlay grid-center square" style="background-image:url( '{{ topic.featured_image }}' );">
+        <li class="carousel-cell card rounded drop-shadow bg-image post-item-image bg-overlay grid-center square" style="background-image:url( '{{ topic.featured_image }}' );">
           <div>
-            <h2 class="padded-tb capitalize text-light text-center col-middle"> {{ topic.category }} </h2>
+            <h2 class="padded-tb capitalize text-light"> {{ topic.category }} </h2>
           </div>
         </li>
 
         {% endfor %}
 
         {% assign blog-page = site.pages | where: "path", "blog.html" %}
-        <li class="item carousel-card drop-shadow bg-image post-item-image bg-overlay grid-center" style="background-image:url( '{{ blog-page.featured_image }}' );">
+        <li class="carousel-cell card rounded drop-shadow bg-image post-item-image bg-overlay grid-center" style="background-image:url( '{{ blog-page.featured_image }}' );">
             <div>
-                <h2 class="padded-tb capitalize text-light col-middle"> All </h2>
+                <h2 class="padded-tb capitalize text-light"> All </h2>
             </div>
         </li>
 

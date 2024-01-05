@@ -29,13 +29,32 @@ $( document ).ready(function() {
       $(".mobile-dropdown-content-2").slideToggle(300);
     });
 
-    //   Animate on Scroll
-    AOS.init({
-      duration: 500 // values from 0 to 3000, with step 50ms
+    // Flickity
+    $('.carousel').flickity({
+      // options
+      cellAlign: 'center',
+      wrapAround: true
+    });
+
+
+    // Add Flickity when screen size changes
+    var addCarousel = function() {
+    var ww = document.body.clientWidth;
+    if(ww < 815) {
+      $('.featured-blogs').addClass('carousel');
+      $('.featured-blogs-card').addClass('carousel-cell');
+    } else {
+      $('.featured-blogs').removeClass('carousel');
+      $('.featured-blogs-card').removeClass('carousel-cell');
+    }
+  };
+
+  $(window).resize(function(){
+    addCarousel();
   });
-    // $('.carousel').slick({
-    //   setting-name: setting-value
-    // });
+
+  addCarousel();
+
 });
 
 // Lightgallery script
