@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My eigth post 
+title: My eighth post 
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur
 author: Tina
 featured: true

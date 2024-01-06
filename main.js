@@ -31,35 +31,24 @@ $( document ).ready(function() {
 
 
         // Add Flickity when screen size changes
-        var addCarousel = function() {
-          var ww = document.body.clientWidth;
-          if(ww < 815) {
-            $('.featured-blogs').addClass('carousel');
-            $('.featured-blogs-card').addClass('carousel-cell');
-            $('.card').removeClass('drop-shadow');
-          } else {
-            $('.featured-blogs').removeClass('carousel');
-            $('.featured-blogs-card').removeClass('carousel-cell');
-            $('.card').addClass('drop-shadow');
-          }
-        };
-
-        var removeMinHeight = function() {
-          var ww = document.body.clientWidth;
-          if(ww < 815) {
-            $('#blog-topics').removeClass('tall-60');
-          } else {
-            $('#blog-topics').addClass('tall-60');
-          }
-        };
+        // var addCarousel = function() {
+        //   var ww = document.body.clientWidth;
+        //   if(ww < 815) {
+        //     $('.featured-blogs').addClass('carousel');
+        //     $('.featured-blogs-card').addClass('carousel-cell');
+        //     $('.card').removeClass('drop-shadow');
+        //   } else {
+        //     $('.featured-blogs').removeClass('carousel');
+        //     $('.featured-blogs-card').removeClass('carousel-cell');
+        //     $('.card').addClass('drop-shadow');
+        //   }
+        // };
       
-        $(window).resize(function(){
-          addCarousel();
-          removeMinHeight();
-        });
+        // $(window).resize(function(){
+        //   addCarousel();
+        // });
       
-        addCarousel();
-        removeMinHeight();
+        // addCarousel();
 
     // Flickity
     $('.carousel').flickity({
