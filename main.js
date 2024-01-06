@@ -30,25 +30,21 @@ $( document ).ready(function() {
     });
 
 
-        // Add Flickity when screen size changes
-        // var addCarousel = function() {
-        //   var ww = document.body.clientWidth;
-        //   if(ww < 815) {
-        //     $('.featured-blogs').addClass('carousel');
-        //     $('.featured-blogs-card').addClass('carousel-cell');
-        //     $('.card').removeClass('drop-shadow');
-        //   } else {
-        //     $('.featured-blogs').removeClass('carousel');
-        //     $('.featured-blogs-card').removeClass('carousel-cell');
-        //     $('.card').addClass('drop-shadow');
-        //   }
-        // };
+        // BG changer when screen size changes
+        var addBackground = function() {
+          var ww = document.body.clientWidth;
+          if(ww < 1024) {
+            $('.top-blog-page-section').removeClass('bg-accent-light-split-top');
+          } else if (ww < 576) {
+            $('.blog-page-header').addClass('bg-accent-light-split-top');
+          }
+        };
       
-        // $(window).resize(function(){
-        //   addCarousel();
-        // });
+        $(window).resize(function(){
+          addBackground();
+        });
       
-        // addCarousel();
+        addBackground();
 
     // Flickity
     $('.carousel').flickity({

@@ -10,24 +10,27 @@ seo:
    hide-from-google: false
 ---
 
-<section class="blog-page-section">
+<section class="blog-page-section ">
 
+    <div class="top-blog-page-section bg-accent-light-split-top">
+        <div class="padded-md x blog-page-header">
+            <h3 class="text-center headline dec-text">Blog</h3>
+        </div>
 <!------------------------ Headline ------------------------>
 
-<div class="padded-md tall-50 bg-accent-light-split-bottom blog-page-header">
-    <h3 class="text-center headline dec-text">Blog</h3>
-</div>
+
 
 
 <!------------------------ Split blog loop (part 1) ------------------------>
-<div class="blog-post-list bg-accent-light-split-top">
+<!-- <div class="blog-post-list bg-accent-light-split-top"> -->
 
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:2 %}
 
             {% include post-loop-item-square.html %}
 
         {% endfor %}
 
+<!-- </div> -->
 </div>
 
 
@@ -46,7 +49,7 @@ seo:
 <!------------------------ Split blog loop (part 2) ------------------------>
 <div class="blog-post-list">
 
-        {% for post in site.posts limit:12 offset:3 %}
+        {% for post in site.posts limit:12 offset:2 %}
 
                 {% include post-loop-item-square.html %}
 
