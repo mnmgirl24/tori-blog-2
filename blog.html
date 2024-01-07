@@ -12,17 +12,15 @@ seo:
 
 <section class="blog-page-section ">
 
-    <div class="top-blog-page-section bg-accent-light-split-top">
-        <div class="padded-md x blog-page-header">
+    <div class="top-blog-page-section">
+
+        <!------------------------ Headline ------------------------>
+
+        <div class="padded-md blog-page-header">
             <h3 class="text-center headline dec-text">Blog</h3>
         </div>
-<!------------------------ Headline ------------------------>
 
-
-
-
-<!------------------------ Split blog loop (part 1) ------------------------>
-<!-- <div class="blog-post-list bg-accent-light-split-top"> -->
+        <!------------------------ Split blog loop (part 1) ------------------------>
 
         {% for post in site.posts limit:2 %}
 
@@ -30,7 +28,6 @@ seo:
 
         {% endfor %}
 
-<!-- </div> -->
 </div>
 
 

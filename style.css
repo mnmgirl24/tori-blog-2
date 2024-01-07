@@ -660,6 +660,10 @@ footer h3 {font-size: 1.4rem;}
   justify-content: center; 
 }
 
+.blog-page-header {
+  grid-column: span 4;
+}
+
 .top-blog-page-section {
   grid-column: span 12;
   display: grid;
@@ -668,10 +672,7 @@ footer h3 {font-size: 1.4rem;}
   gap: 2rem;
   align-items: center;
   justify-content: center; 
-}
-
-.blog-page-header {
-  grid-column: span 4;  
+background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
 }
 
 .blog-post-list {
@@ -808,6 +809,16 @@ hr.short.center {
   min-height: 60svh;
 }
 
+.category-carousel .carousel-cell {
+  display: grid;
+  justify-content: center;
+  align-items: center; 
+}
+
+.category-loop-title {
+  text-decoration: none;
+}
+
 
 /* ------------ About page ----------------------- */
 #about-blog {
@@ -827,6 +838,11 @@ hr.short.center {
 }
 
 
+/* ------------ Blog pages ----------------------- */
+
+.blog-page-header h3 {
+  font-size: 5vw;
+}
 
 
 
@@ -857,14 +873,12 @@ hr.short.center {
 
   footer a {font-size: 1rem;}
 
-  /* .top-blog-page-section {
-    padding: 2rem 5%;
-    gap: 2rem;
-    align-items: center;
-  } */
+  .top-blog-page-section {
+    background: linear-gradient(0deg, var(--light) 75%, var(--accent-light) 25%);
+  }
   
   .blog-page-header {
-    grid-column: span 6;  
+    grid-column: span 6; 
   }
 
   .blog-post {
@@ -1004,6 +1018,10 @@ hr.short.center {
   footer h3 {font-size: 1.2rem;}
   .copyright {font-size: 0.7rem;}
 
+  .top-blog-page-section {
+    background: linear-gradient(0deg, var(--light) 95%, var(--accent-light) 5%);
+  }
+
   .blog-page-header {
     grid-column: span 12;
   }
@@ -1011,7 +1029,7 @@ hr.short.center {
   .blog-post {
     grid-column: span 12; 
     margin: auto;
-  }
+  } 
 
 }
 

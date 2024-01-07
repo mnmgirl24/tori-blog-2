@@ -31,20 +31,20 @@ $( document ).ready(function() {
 
 
         // BG changer when screen size changes
-        var addBackground = function() {
-          var ww = document.body.clientWidth;
-          if(ww < 1024) {
-            $('.top-blog-page-section').removeClass('bg-accent-light-split-top');
-          } else if (ww < 576) {
-            $('.blog-page-header').addClass('bg-accent-light-split-top');
-          }
-        };
+        // var addBackground = function() {
+        //   var ww = document.body.clientWidth;
+        //   if(ww < 1024) {
+        //     $('.top-blog-page-section').removeClass('bg-accent-light-split-top');
+        //   } else if (ww < 576) {
+        //     $('.blog-page-header').addClass('bg-accent-light-split-top');
+        //   }
+        // };
       
-        $(window).resize(function(){
-          addBackground();
-        });
+        // $(window).resize(function(){
+        //   addBackground();
+        // });
       
-        addBackground();
+        // addBackground();
 
     // Flickity
     $('.carousel').flickity({
