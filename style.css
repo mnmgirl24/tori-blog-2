@@ -340,6 +340,7 @@ body {
   font-family: 'Mulish', sans-serif;
   color: var(--dark-text);
   background-color: var(--light);
+  overflow-x: hidden; 
 }
 
 h2, h3, h4, h5, h6 {
@@ -662,6 +663,14 @@ footer h3 {font-size: 1.4rem;}
 
 .blog-page-header {
   grid-column: span 4;
+  justify-self: center;
+}
+
+.blog-page-header h3 {
+  font-size: 15svh;
+  transform: rotate(180deg);
+  writing-mode: tb-rl;
+  text-align: right;
 }
 
 .top-blog-page-section {
@@ -683,7 +692,7 @@ background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
   justify-items: center;
   margin: auto;
   padding: 0 5%;
-  gap: 2rem;
+  gap: 2rem; 
 }
 
 .blog-post-list:last-child {
@@ -835,13 +844,6 @@ hr.short.center {
 
 #about-blog-img {
   grid-column: span 5;
-}
-
-
-/* ------------ Blog pages ----------------------- */
-
-.blog-page-header h3 {
-  font-size: 5vw;
 }
 
 
@@ -1024,6 +1026,13 @@ hr.short.center {
 
   .blog-page-header {
     grid-column: span 12;
+  }
+
+  .blog-page-header h3 {
+    transform: rotate(0deg);
+    writing-mode: horizontal-tb;
+    font-size: 3rem;
+    text-align: center;
   }
 
   .blog-post {
