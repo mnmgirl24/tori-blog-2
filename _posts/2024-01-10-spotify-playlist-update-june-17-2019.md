@@ -4,7 +4,7 @@ title: 'spotify playlist update: june 17, 2019'
 description:
 author: Victoria Congdon
 featured: false
-featured_image: /uploads/be0cb7-fe5f70cfac1847c6981d68cf3545b4e9-mv2.webp
+featured_image: /uploads/be0cb7-1155fc5d1f754c3aa0e5aa3e271314bc-mv2.webp
 seo:
   title: 'spotify playlist update: june 17, 2019'
   description:
