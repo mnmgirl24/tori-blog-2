@@ -736,8 +736,12 @@ background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
 .post-item {
   text-decoration: none;
   min-width: 100%;
+} 
+
+.blog-post-list .post-item {
   min-height: 100%;
 }
+
 
 .blog-date {
   font-size: 0.8rem;
