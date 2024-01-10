@@ -127,7 +127,7 @@ section { position: relative; }
 .bg-featured-light-split-bottom {background: linear-gradient(180deg, var(--light) 50%, var(--featured-light) 50%)}
 
 .bg-image {
-  background-color: var(--accent-light); /* Set a fall-back color while images are loading */ 
+  background-color: var(--accent);
   background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
   background-size: cover;
   background-position: center; 
@@ -430,6 +430,14 @@ p a {
   font-size: 0.8rem;
 }
 
+.copyright a {
+  color: var(--secondary);
+}
+
+.copyright a:hover {
+  color: var(--accent);
+}
+
 .button { 
     display: inline-block;
     text-decoration: none;
@@ -648,6 +656,10 @@ nav a:hover {
 /* ------------ Footer -------------- */
 footer h2 {margin-bottom: 0.5rem;}
 footer h3 {font-size: 1.4rem;}
+footer a {
+  text-decoration: none;
+  border-bottom: none;
+}
 
 
 
@@ -731,7 +743,25 @@ background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
   font-size: 0.8rem;
   margin: 0.5rem 0;
   color: var(--medium-text);
-  font-family: 'Mulish', sans-serif; 
+  font-family: 'Mulish', sans-serif;
+}
+
+
+/* Related posts */
+
+.related-posts {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+}
+
+.related-posts h4 {
+  grid-column: span 12;
+  padding-top: 1rem;
+}
+
+.related-posts a {
+  grid-column: span 4;
 }
 
 
