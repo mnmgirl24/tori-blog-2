@@ -6,7 +6,7 @@ author: Victoria Congdon
 featured: true
 categories:
   - writing
-featured_image: ''
+featured_image: /uploads/be0cb7-d718d492c4844c2db3c961fbb3c491dc-mv2.webp
 seo:
   title: 'Writing Wrapped: 2022 Year in Review'
   description:
