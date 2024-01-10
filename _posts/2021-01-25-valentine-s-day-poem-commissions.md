@@ -7,7 +7,7 @@ featured: false
 categories:
   - writing
   - writing commissions
-featured_image: ''
+featured_image: /uploads/be0cb7-9f8818ff78f14e53aa1d95071ed9d54a-mv2.webp
 seo:
   title: Valentine's Day Poem Commissions
   description:
