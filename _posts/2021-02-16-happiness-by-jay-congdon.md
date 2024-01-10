@@ -9,7 +9,7 @@ categories:
   - 'happiness by: a series'
 featured_image: ''
 seo:
-  title: Happiness By: Jay Congdon
+  title: 'Happiness By: Jay Congdon'
   description:
   social_image:
   twitter_card:
