@@ -6,6 +6,7 @@ author: Victoria Congdon
 featured: false
 categories:
   - video
+  - 'happiness by: a series'
 featured_image: ''
 seo:
   title: 'Happiness By: Maggie Cayangyang'

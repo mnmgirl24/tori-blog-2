@@ -14,6 +14,8 @@
                     <a href='/{{ item | replace: " ", "-"  }}' class="tag"> {{item}} </a>
             {% endfor %}
 
+            <p class="blog-date">{{ post.date | date_to_string: "ordinal", "US" }}</p>
+
             <a href="{{ post.url }}" class="blog-title">
                 <h2 class="padded-tb"> {{ post.title }} </h2>
             </a>

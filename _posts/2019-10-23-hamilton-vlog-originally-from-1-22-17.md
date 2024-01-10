@@ -3,7 +3,7 @@ layout: post-with-sidebar
 title: Hamilton Vlog (Originally from 1/22/17)
 description:
 author: Victoria Congdon
-featured: true
+featured: false
 categories:
   - video
 featured_image: ''

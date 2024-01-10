@@ -3,7 +3,7 @@ layout: post-with-sidebar
 title: 'Ledyard Music Takes on Disney World: All 4 Parts!'
 description:
 author: Victoria Congdon
-featured: true
+featured: false
 categories:
   - video
 featured_image: ''

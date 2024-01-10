@@ -359,7 +359,7 @@ p, li {
   line-height: 1.4; 
   margin-bottom: 1rem;
   font-family: 'Martel', serif; 
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.2rem;
 }
 
@@ -391,10 +391,10 @@ blockquote {
   font-size: 1.8rem;
   margin: 2rem 0;
   font-style: italic;
-  color: rgb(150,150,150);
+  /* color: var(--); */
   padding-left: 1.5rem;
   margin-left: 1.5rem;
-  border-left: 2px solid;
+  border-left: 2px solid var(--featured-text);
 }
 
 blockquote p {
@@ -418,8 +418,12 @@ a:hover {
 
 p a {
   text-decoration: none;
-    border-bottom: 1px solid;
-    transition: all 0.3s;
+  border-bottom: 1px solid;
+  transition: all 0.3s;
+}
+
+.blog-content a {
+  border-bottom: none;
 }
 
 .copyright {
@@ -719,6 +723,15 @@ background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
 
 .post-item {
   text-decoration: none;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.blog-date {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  color: var(--medium-text);
+  font-family: 'Mulish', sans-serif; 
 }
 
 
@@ -757,7 +770,8 @@ background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
 
 .blog-content hr {
   border: none;
-  border: 1px solid var(--medium);
+  border: 1px solid var(--featured-text);
+  margin-bottom: 1rem;
 }
 
 
@@ -873,6 +887,10 @@ hr.short.center {
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
+  blockquote p {
+    font-size: 1.3rem;
+  }
+
   footer a {font-size: 1rem;}
 
   .top-blog-page-section {
@@ -920,6 +938,18 @@ hr.short.center {
 
   p {
     font-size: 1rem;
+  }
+
+  .blog-content h1 {
+    font-size: 2rem;
+  }
+
+  .blog-content p {
+    font-size: 1.05rem;
+  }
+
+  .blog-content blockquote p {
+    font-size: 1.2rem;
   }
 
   .flex-flip-sm:nth-child(even) { flex-direction: row-reverse; }

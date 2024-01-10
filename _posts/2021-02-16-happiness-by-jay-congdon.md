@@ -1,6 +1,6 @@
 ---
 layout: post-with-sidebar
-title: 'Happiness By: Jay Congdon '
+title: 'Happiness By: Jay Congdon'
 description:
 author: Victoria Congdon
 featured: false
@@ -9,19 +9,7 @@ categories:
   - 'happiness by: a series'
 featured_image: ''
 seo:
-  title: >-
-    "How do you define happiness?"    In Happiness By: A Series, we interview
-    real people about simple subject matter such as happiness, sadness,
-    insecurities, and anxieties, all in the interest of humanizing society and
-    making people feel a little less lonely in what they are going through.    
-    In this episode, we talk to Jay about his schizoaffective disorder,
-    maintaining mental health, destigmatizing mental illness, and being a
-    father.   This is a special episode, although every segment is special, but
-    my brother and I got to sit down and chat about the heavy stuff for a while.
-    Actually, it was he who wanted to shed light on what he is going through,
-    and I was happy to give him a platform to do that. I am so proud of him and
-    proud to support him, and I hope you all enjoy watching this.   TW for
-    general mental illness discussion and brief mention of suicide. 
+  title: Happiness By: Jay Congdon
   description:
   social_image:
   twitter_card:
