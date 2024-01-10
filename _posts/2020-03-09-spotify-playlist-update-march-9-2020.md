@@ -6,7 +6,7 @@ author: Victoria Congdon
 featured: false
 categories:
   - lifestyle
-featured_image: ''
+featured_image: /uploads/be0cb7-b76f0f0864b24a5eaf455223604065c8-mv2.webp
 seo:
   title: 'spotify playlist update: march 9, 2020'
   description:
