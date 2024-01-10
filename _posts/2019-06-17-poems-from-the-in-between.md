@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-sidebar
 title: poems from the in-between
 description:
 author: Victoria Congdon
