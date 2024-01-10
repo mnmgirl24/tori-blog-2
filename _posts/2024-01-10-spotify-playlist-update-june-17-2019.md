@@ -4,7 +4,6 @@ title: 'spotify playlist update: june 17, 2019'
 description:
 author: Victoria Congdon
 featured: false
-categories:
 featured_image: /uploads/be0cb7-fe5f70cfac1847c6981d68cf3545b4e9-mv2.webp
 seo:
   title: 'spotify playlist update: june 17, 2019'
@@ -17,6 +16,8 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+<div class="cms-embed" data-cms-embed="PGlmcmFtZSBzdHlsZT0iYm9yZGVyLXJhZGl1czoxMnB4OyIgc3JjPSJodHRwczovL29wZW4uc3BvdGlmeS5jb20vZW1iZWQvcGxheWxpc3QvM2l1R0NSa2N4MFVDZmF4djVtU2FSQz91dG1fc291cmNlPWdlbmVyYXRvciIgd2lkdGg9IjUwJSIgaGVpZ2h0PSIxNTIiIGZyYW1lYm9yZGVyPSIwIiBhbGxvd2Z1bGxzY3JlZW4gYWxsb3c9ImF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZnVsbHNjcmVlbjsgcGljdHVyZS1pbi1waWN0dXJlIiBsb2FkaW5nPSJsYXp5Ij48L2lmcmFtZT4="><iframe style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/3iuGCRkcx0UCfaxv5mSaRC?utm_source=generator" width="50%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+
 everybody's cool but me - johan
 
 the pull of you - the national
