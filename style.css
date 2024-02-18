@@ -395,6 +395,12 @@ section {
   min-height: 100%;
 }
 
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .rounded {
   border-radius: 3rem;
   overflow: hidden;
