@@ -1385,6 +1385,10 @@ hr.short.center {
   #about-blog-img {
     grid-column: span 12;
   }
+
+  .blog-page-header h3 {
+    font-size: 4rem;
+  }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */
