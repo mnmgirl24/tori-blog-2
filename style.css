@@ -654,7 +654,7 @@ p:last-child {
   opacity: 0.8;
 }
 .subtitle {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .lightweight {
   font-weight: lighter;
@@ -1035,7 +1035,7 @@ footer a {
 }
 
 .blog-date {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 0.5rem 0;
   color: var(--medium-text);
   font-family: "Mulish", sans-serif;
@@ -1065,7 +1065,7 @@ footer a {
   font-weight: bold;
   text-transform: uppercase;
   opacity: 0.5;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-right: 0.4rem;
   text-decoration: none;
   transition: all 0.1s linear;
@@ -1076,7 +1076,7 @@ footer a {
 }
 
 .post-info {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--medium-text);
 }
 
@@ -1412,12 +1412,13 @@ hr.short.center {
     font-size: 2rem;
   }
   p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   footer h3 {
     font-size: 1.2rem;
   }
-  .copyright {
+  .copyright,
+  .copyright a {
     font-size: 0.7rem;
   }
 
