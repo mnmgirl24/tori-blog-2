@@ -986,6 +986,7 @@ footer a {
   grid-template-columns: repeat(12, 1fr);
   padding: 2rem 5%;
   gap: 2rem;
+  margin: auto;
   align-items: center;
   justify-content: center;
   background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
