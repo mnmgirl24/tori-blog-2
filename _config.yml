@@ -2,14 +2,18 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:slug
-  archives: 
+  archives:
     output: true
     permalink: /blog/category/:title
   portfolio:
-    output: true 
+    output: true
     permalink: /portfolio/:year/:slug
-    
 
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "blank_post"
 
 _options:
   content:
@@ -35,25 +39,24 @@ _options:
     image: true
     design: true
 
-
 _select_data:
- aspect-ratios:
+  aspect-ratios:
     - square
     - portrait
     - portrait-tall
     - landscape
-  
- frames:
+
+  frames:
     - leaf-frame-1
     - leaf-frame-2
- 
- background-position:
+
+  background-position:
     - bg-pos-t: Top
     - bg-pos-b: Bottom
     - bg-pos-l: Left
     - bg-pos-r: Right
 
- column-sizes:
+  column-sizes:
     col-6: One Half
     col-12: Full Width
     col-4: One Third
@@ -62,7 +65,7 @@ _select_data:
     col-4_sm-12: One Third (Stacked)
     col-3_sm-12: One Quarter (Stacked)
 
- background-color:
+  background-color:
     bg-accent: Accent Color Background
     bg-featured: Featured Color Background
     bg-accent-light: Light Accent Background
@@ -77,7 +80,5 @@ _select_data:
     bg-featured-light-split-top: Light Featured Top Split Background
     bg-featured-light-split-bottom: Light Featured Bottom Split Background
 
- gallery-type:
-    -Popup Gallery
+  gallery-type: -Popup Gallery
     -Standard Gallery
-    
