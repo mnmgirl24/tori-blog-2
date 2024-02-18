@@ -1239,7 +1239,7 @@ hr.short.center {
   }
 
   .flickity-viewport {
-    height: 100svh;
+    height: 100svh !important;
   }
 }
 
