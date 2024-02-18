@@ -986,7 +986,7 @@ footer a {
   grid-template-columns: repeat(12, 1fr);
   padding: 2rem 5%;
   gap: 2rem;
-  margin: auto;
+  /* margin: auto; */
   align-items: center;
   justify-content: center;
   background: linear-gradient(0deg, var(--light) 50%, var(--accent-light) 50%);
@@ -998,7 +998,7 @@ footer a {
   grid-template-columns: repeat(12, 1fr);
   justify-content: center;
   justify-items: center;
-  margin: auto;
+  /* margin: auto; */
   padding: 0 5%;
   gap: 2rem;
 }
@@ -1027,6 +1027,7 @@ footer a {
   min-width: 100%;
   transition: all 0.2s linear;
   min-height: 100%;
+  min-width: 100%;
 }
 
 .blog-post-list .post-item {
@@ -1373,10 +1374,6 @@ hr.short.center {
 
   .blog-title h2 {
     font-size: 1.5rem;
-  }
-
-  .blog-post-list {
-    padding: 0 10%;
   }
 
   #about-blog-desc {
