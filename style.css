@@ -1025,10 +1025,7 @@ footer a {
   text-decoration: none;
   min-width: 100%;
   transition: all 0.2s linear;
-}
-
-.post-item {
-  transform: translateZ(1rem);
+  min-height: 100%;
 }
 
 .blog-post-list .post-item {
@@ -1232,7 +1229,6 @@ hr.short.center {
   .blog-page-header h3 {
     transform: rotate(0deg);
     writing-mode: horizontal-tb;
-    font-size: 3rem;
     text-align: center;
   }
 
