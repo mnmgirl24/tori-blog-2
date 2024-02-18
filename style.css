@@ -759,7 +759,7 @@ p a {
   text-decoration: none;
 }
 .blog-title h2 {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 /* suggested additional styles 
@@ -1237,6 +1237,10 @@ hr.short.center {
   .blog-post {
     grid-column: span 6;
   }
+
+  .flickity-viewport {
+    height: 100svh;
+  }
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */
@@ -1329,7 +1333,7 @@ hr.short.center {
   }
 
   #featured-blog-loop {
-    min-height: auto;
+    /* min-height: auto; */
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1342,7 +1346,7 @@ hr.short.center {
 
   .featured-blogs .carousel-cell {
     display: block;
-    width: 80%;
+    width: 60%;
     margin: 0;
     max-height: 80%;
   }
