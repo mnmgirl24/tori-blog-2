@@ -8,7 +8,7 @@
 
 
 <!------------ SEO Metadata  --------------------------------->
-    <title>{% if page.title %}{{ page.title }} | {% endif %}Mahogany.</title>
+    <title>{% if page.seo.title %}{{ page.seo.title }} | {% endif %}Mahogany.</title>
 <meta name="description" content="{{page.seo.description | default: site.data.site-settings.seo.description }}">
 <meta name="keywords" content="{{page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
 
