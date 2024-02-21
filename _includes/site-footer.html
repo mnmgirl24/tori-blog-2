@@ -2,8 +2,8 @@
 <footer class="bg-featured text-light">
   <div class="grid-spaceBetween padded-md">
     <div class="col-5_md-6_xs-12-middle padded-2">
-      <h2 class="editable">The In-Between</h2>
-      <h3 class="editable lightweight">a blog about the middle.</h3>
+      <h2 class="editable">{{ site.data.site-settings.seo.title }}</h2>
+      <h3 class="editable lightweight">{{ site.data.site-settings.seo.description }}</h3>
     </div>
   
     <div class="col-7_md-6_xs-12-middle text-right padded-md">
@@ -14,9 +14,9 @@
         <a href="/contact">Contact</a>
       </nav>
       <nav class="social-icons editable margin-t-1">
-        <a href="{{ site.data.site-settings.linkedin_url }}"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="{{ site.data.site-settings.twitter_username }}"><i class="fa-brands fa-twitter"></i></a>
-        <a href="{{ site.data.site-settings.instagram_username }}"><i class="fa-brands fa-instagram"></i></a>
+        <a href="{{ site.data.site-settings.linkedin_url }}" name="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="{{ site.data.site-settings.twitter_username }}" name="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="{{ site.data.site-settings.instagram_username }}" name="Instagram"><i class="fa-brands fa-instagram"></i></a>
       </nav>
     </div>
   </div>

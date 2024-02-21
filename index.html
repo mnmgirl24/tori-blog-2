@@ -15,10 +15,10 @@ seo:
 <section
   class="bg-image padded-md grid bg-overlay tall-70"
   style="background-image: url('{{ page.banner_image }}');
-                background-position: 0 40%;"
+         background-position: 0 40%;"
 >
   <div class="col-12-middle text-center">
-    <h1 class="text-light dec-text">The In-Between</h1>
+    <h1 class="text-light dec-text">{{ site.data.site-settings.seo.title }}</h1>
   </div>
 </section>
 
@@ -33,7 +33,7 @@ seo:
     ></div>
   </div>
   <div class="col-7_sm-12-middle padded-md">
-    <h2 class="editable">a blog about the middle.</h2>
+    <h2 class="editable">{{ site.data.site-settings.seo.description }}</h2>
     <p class="editable">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, labore
       quas eaque, vitae voluptates cum nihil dignissimos porro fuga sapiente
@@ -45,7 +45,7 @@ seo:
       provident alias quis autem quia ipsum accusamus obcaecati aliquam
       repellat.
     </p>
-    <a href="/about" class="button featured-button">About Me</a>
+    <a href="/about" class="button featured-button editable">About Me</a>
   </div>
 </section>
 
@@ -64,7 +64,7 @@ seo:
         <a href="{{ post.url }}">
           <div
             class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );"
+            style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"
           ></div>
         </a>
 
@@ -94,7 +94,7 @@ seo:
         <a href="{{ post.url }}">
           <div
             class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );"
+            style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"
           ></div>
         </a>
 
