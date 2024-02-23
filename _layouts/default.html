@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     {% include head.html %}
-    
-</head>
+  </head>
 
-<body>
-
-    {% include inline-styles.html %}
-    
-    {% include site-header.html %}
-
-    {{content}}
-
+  <body>
+    {% include inline-styles.html %} {% include site-header.html %} {{content}}
     {% include site-footer.html %}
 
     <!-- Add jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <!-- Animate on Scroll -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
     <!-- Lightgallery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
@@ -31,7 +29,5 @@
 
     <!-- Our custom Javascript file -->
     <script src="/main.js"></script>
-
-</body>
-
+  </body>
 </html>

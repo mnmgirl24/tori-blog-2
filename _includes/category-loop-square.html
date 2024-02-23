@@ -1,21 +1,25 @@
 <div class="padded-2 carousel category-carousel">
-
   {% for topic in site.archives %}
 
-    <a class="carousel-cell card rounded drop-shadow bg-image post-item-image bg-overlay square category-loop-title" href="/blog/category/{{ topic.category }}" style="background-image:url( '{{ topic.featured_image }}' );" loading="lazy" aria-label="{{ topic.category }} category" >
+  <a
+    class="carousel-cell card rounded bg-image post-item-image bg-overlay square category-loop-title"
+    href="/blog/category/{{ topic.category }}"
+    style="background-image:url( '{{ topic.featured_image }}' );"
+    loading="lazy"
+    aria-label="{{ topic.category }} category"
+  >
+    <h2 class="padded-tb capitalize text-light">{{ topic.category }}</h2>
+  </a>
 
-      <h2 class="padded-tb capitalize text-light"> {{ topic.category }} </h2>
+  {% endfor %} {% assign blog-page = site.pages | where: "path", "blog.html" %}
 
-    </a>
-
-  {% endfor %}
-
-  {% assign blog-page = site.pages | where: "path", "blog.html" %}
-
-    <a class="carousel-cell card rounded drop-shadow bg-image post-item-image bg-overlay category-loop-title" style="background-image:url( '{{ blog-page.featured_image }}' );" href="/blog/" loading="lazy" aria-label="All categories">
-
-      <h2 class="padded-tb capitalize text-light"> All </h2>
-      
-    </a>
-
+  <a
+    class="carousel-cell card rounded bg-image post-item-image bg-overlay category-loop-title"
+    style="background-image:url( '{{ blog-page.featured_image }}' );"
+    href="/blog/"
+    loading="lazy"
+    aria-label="All categories"
+  >
+    <h2 class="padded-tb capitalize text-light">All</h2>
+  </a>
 </div>

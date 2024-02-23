@@ -1,29 +1,43 @@
 <!------- Footer -------->
-<footer class="bg-featured text-light">
+<footer class="bg-featured text-light" id="footer">
   <div class="grid-spaceBetween padded-md">
     <div class="col-5_md-6_xs-12-middle padded-2">
       <h2 class="editable">{{ site.data.site-settings.seo.title }}</h2>
-      <h3 class="editable lightweight">{{ site.data.site-settings.seo.description }}</h3>
+      <h3 class="editable lightweight">
+        {{ site.data.site-settings.seo.description }}
+      </h3>
     </div>
-  
+
     <div class="col-7_md-6_xs-12-middle text-right padded-md">
-      <nav class="editable">
-        <a href="/about">About</a> | 
-        <a href="/blog">Blog</a> | 
-        <a href="/portfolio">Portfolio</a> | 
+      <nav class="editable footer-nav">
+        <a href="/about">About</a> | <a href="/blog">Blog</a> |
+        <a href="/portfolio">Portfolio</a> |
         <a href="/contact">Contact</a>
       </nav>
       <nav class="social-icons editable margin-t-1">
-        <a href="{{ site.data.site-settings.linkedin_url }}" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="{{ site.data.site-settings.twitter_username }}" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
-        <a href="{{ site.data.site-settings.instagram_username }}" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a
+          href="{{ site.data.site-settings.linkedin_url }}"
+          aria-label="Linkedin"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a
+          href="{{ site.data.site-settings.twitter_username }}"
+          aria-label="Twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          href="{{ site.data.site-settings.instagram_username }}"
+          aria-label="Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
       </nav>
     </div>
   </div>
-  
 
   <div class="text-center subtle padded-sm">
-    <p class="copyright">Website Designed & Built by <a href="https://linkedin.com/in/mona-mirmortazavi">Mona Mirmortazavi</a></p>
+    <p class="copyright">
+      Website Designed & Built by
+      <a href="https://linkedin.com/in/mona-mirmortazavi">Mona Mirmortazavi</a>
+    </p>
   </div>
-
 </footer>

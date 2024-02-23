@@ -11,20 +11,31 @@ seo:
   hide-from-google: false
 ---
 
+<!-- Animated screen cover -->
+<div class="top-screen-load bg-accent">
+  <h1 class="text-light dec-text screen-load-text">
+    {{ site.data.site-settings.seo.title }}
+  </h1>
+</div>
+<div class="bottom-screen-load bg-accent"></div>
+
 <!------------------------ Image Banner  ------------------------>
 <section
-  class="bg-image padded-md grid bg-overlay tall-70"
+  class="bg-image padded-md grid bg-overlay tall-90"
   style="background-image: url('{{ page.banner_image }}');
          background-position: 0 40%;"
 >
   <div class="col-12-middle text-center">
-    <h1 class="text-light dec-text">{{ site.data.site-settings.seo.title }}</h1>
+    <h1 class="text-light dec-text hero-text">
+      {{ site.data.site-settings.seo.title }}
+    </h1>
   </div>
 </section>
 
 <!------------------------ About  ------------------------>
 <section
   class="padded-md grid-spaceAround-middle bg-accent-light-split-right tall-70"
+  id="about-block"
 >
   <div class="col-4_sm-12-middle">
     <div
@@ -52,7 +63,7 @@ seo:
 <!------------------------ Featured blog loop ------------------------>
 <section class="padded-2 padded-b bg-featured-light" id="featured-blog-loop">
   <div class="padded-sm text-center">
-    <h2 class="editable">Featured Posts</h2>
+    <h2 class="editable subhead">Featured Posts</h2>
   </div>
 
   <div class="featured-blogs hide-sm">
@@ -64,7 +75,8 @@ seo:
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
           <div
             class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"
+            style="background-image:url( '{{ post.featured_image }}' );"
+            loading="lazy"
           ></div>
         </a>
 
@@ -94,7 +106,8 @@ seo:
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
           <div
             class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"
+            style="background-image:url( '{{ post.featured_image }}' );"
+            loading="lazy"
           ></div>
         </a>
 
@@ -122,7 +135,7 @@ seo:
 <!------------------------ Topics  ------------------------>
 <section class="bg-accent-light-split-bottom padded-2" id="blog-topics">
   <div class="padded-sm text-center">
-    <h2 class="editable">Topics</h2>
+    <h2 class="editable subhead">Topics</h2>
   </div>
   {% include category-loop-square.html %}
 </section>
