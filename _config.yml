@@ -58,6 +58,11 @@ _select_data:
     bg-pos-r: Right
     bg-pos-c: Center
 
+  layouts:
+    default: Blank default page
+    post: Blog post with no sidebar
+    post-with-sidebar: Blog post with sidebar (recommended)
+
   column-sizes:
     col-6: One Half
     col-12: Full Width
