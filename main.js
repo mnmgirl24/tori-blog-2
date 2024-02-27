@@ -66,7 +66,7 @@ function createFadeIn(target, options) {
     opacity: options.opacity || 0,
     duration: options.duration || 1.5,
     delay: options.delay || 0.1,
-    stagger: options.stagger || 0.1,
+    stagger: options.stagger || 0.2,
   });
 }
 
@@ -78,7 +78,7 @@ let scrollAbout = gsap.timeline({
   },
 });
 
-scrollAbout.add(createFadeIn("#about-block *", {}));
+scrollAbout.add(createFadeIn("#about-block > *", {}));
 
 let scrollFeaturePost = gsap.timeline({
   scrollTrigger: {

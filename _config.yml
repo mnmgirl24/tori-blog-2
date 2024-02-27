@@ -46,7 +46,7 @@ _select_data:
     - portrait-tall
     - landscape
 
-  frames:
+  image-frames:
     - leaf-frame-1
     - leaf-frame-2
     - no-frame
