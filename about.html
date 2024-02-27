@@ -13,11 +13,14 @@ blog:
   background-position: bg-pos-r
   image-frame: leaf-frame-2
   aspect-ratio: portrait
+  alt: Tori by a lake
+
 profile:
   profile_image: /images/tori-8.jpg
   background-position:
   image-frame: leaf-frame-1
   aspect-ratio: portrait
+  alt: Tori with her graduation cap at the Eras Tour
 ---
 
 <!------------------------ Image Banner  ------------------------>
@@ -101,6 +104,7 @@ profile:
     <div
       class="bg-image {{ page.blog.aspect-ratio }} {{ page.blog.background-position }} {{ page.blog.image-frame }} drop-shadow padded-md"
       style="background-image: url('{{ page.blog.blog_image }}');"
+      alt="{{ page.blog.alt }}"
       loading="lazy"
     ></div>
   </div>
@@ -116,6 +120,7 @@ profile:
       <div
         class="bg-image {{ page.profile.aspect-ratio }} {{ page.profile.background-position }} {{ page.profile.image-frame }} drop-shadow padded-sm"
         style="background-image: url('{{ page.profile.profile_image }}');"
+        alt="{{ page.profile.alt }}"
         loading="lazy"
       ></div>
     </div>
@@ -126,12 +131,6 @@ profile:
         labore quas eaque, vitae voluptates cum nihil dignissimos porro fuga
         sapiente aspernatur facere, similique tenetur vero eum ipsum vel
         voluptate sit!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione
-        dolore earum voluptatem minus! Amet possimus, cupiditate omnis ea facere
-        provident alias quis autem quia ipsum accusamus obcaecati aliquam
-        repellat.
       </p>
       <a href="/portfolio" class="button featured-button">View My Portfolio</a>
     </div>

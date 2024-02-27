@@ -3,65 +3,63 @@ layout: default
 ---
 
 
-<section class="grid padded-md capped-width-wide bg-accent-light-split-right">
+  <section class="grid padded-md capped-width-wide bg-accent-light-split-right">
+    <div
+  class="bg-image padded-md grid bg-overlay tall-60 {{ page.featured-image.background-position }}"
+  style="background-image: url('{{ page.featured-image.featured_image }}');"
+  alt="{{ page.featured-image.alt | default: page.title | replace: '"', '' }}"
+></div>
+    <div class="padded-1 col-9_md-8_sm-12 blog-content">
+      <div class="intro padded-1">
+        {% for item in page.categories %}
+        <a href='/{{ item | replace: " ", "-"   }}' class="tag"> {{ item }}</a>
+        {% endfor %}
 
-    <div class="padded-1 col-9_md-8_sm-12 blog-content ">
+        <h1>{{ page.title }}</h1>
 
-        <div class="intro padded-1">
+        <p class="post-info">
+          {{ page.date | date_to_long_string: "ordinal", "US" }}
+        </p>
+      </div>
+      <div class="padded-1">{{content}}</div>
 
-            {% for item in page.categories %}
-                <a href='/{{ item | replace: " ", "-"   }}' class="tag"> {{ item }}</a>
-            {% endfor %}
-            
-            <h1> {{ page.title }} </h1>
-            
-            <p class="post-info">{{ page.date | date_to_long_string: "ordinal", "US" }} </p>
-         
-        </div>
-        <div class="padded-1">
-
-            {{content}}
-
-        </div>
-        
-        {% include social-share.html %}
-
+      {% include social-share.html %}
     </div>
 
     <!------------------ SIDEBAR  --------------------------------->
     <aside class="padded-1 col-3_md-4_sm-12">
+      <div class="sidebar-item padded-1">
+        <h4 class="editable">About Tori</h4>
+        <p class="editable">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
+          totam nesciunt blanditiis. Laboriosam accusantium officia illo autem
+          placeat laborum vel eaque! Consequuntur nobis assumenda impedit
+          accusamus earum molestiae velit accusantium.
+        </p>
+      </div>
 
-        <div class="sidebar-item padded-1">
+      <div class="sidebar-item padded-1">
+        <h4>Recent Posts</h4>
 
-            <h4 class="editable"> About Tori </h4>
-            <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore totam nesciunt blanditiis. Laboriosam accusantium officia illo autem placeat laborum vel eaque! Consequuntur nobis assumenda impedit accusamus earum molestiae velit accusantium.</p> 
+        <nav class="recent-posts-nav">
+          {% for post in site.posts limit:8 %}
+          <a href="{{post.url}}"> {{post.title}}</a>
+          {% endfor %}
+        </nav>
+      </div>
 
-        </div>
+      <div class="sidebar-item padded-1">
+        <h4 class="editable">Explore Categories</h4>
 
-        <div class="sidebar-item padded-1">
-            <h4> Recent Posts </h4>
+        <nav>
+          {% for archive in site.archives limit:8 %}
+          <a href="{{archive.url}}" class="tag"> {{archive.category}}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </aside>
+    <!-- end sidebar-->
+  </section>
 
-            <nav class="recent-posts-nav"> 
-                {% for post in site.posts limit:8 %}
-                     <a href="{{post.url}}"> {{post.title}}</a>
-                {% endfor %}
-            </nav>
-
-        </div>
-
-        <div class="sidebar-item padded-1">
-            <h4 class="editable"> Explore Categories </h4>
-
-            <nav> 
-                {% for archive in site.archives limit:8 %}
-                     <a href="{{archive.url}}" class="tag"> {{archive.category}}</a>
-                {% endfor %}
-            </nav>
-
-        </div>
-
-    </aside> <!-- end sidebar-->
-
-</section>
-
-{% include related-posts.html %}
+  {% include related-posts.html %}
+</div>

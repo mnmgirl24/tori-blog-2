@@ -6,7 +6,9 @@ author: Victoria Congdon
 featured: false
 categories:
   - video
-featured_image: ''
+featured-image:
+  featured_image: ""
+  alt:
 seo:
   title: Christmas in New York
   description:
@@ -18,6 +20,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 Originally created December 2018
 
 NOT a vlog, for once, but in fact a study in Christmas lights and the bustle of the city during the most wonderful time of the year. I was experimenting with a wide lens attachment I received as a gift for my phone camera, which was very neat.

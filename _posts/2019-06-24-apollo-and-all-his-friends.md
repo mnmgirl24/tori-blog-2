@@ -6,7 +6,9 @@ author: Victoria Congdon
 featured: false
 categories:
   - writing
-featured_image: /uploads/be0cb7-2ff2a5598dc144d3a90291955c2edf92-mv2.webp
+featured-image:
+  featured_image: /uploads/be0cb7-2ff2a5598dc144d3a90291955c2edf92-mv2.webp
+  alt:
 seo:
   title: apollo and all his friends
   description:
@@ -18,6 +20,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 Happy Monday! This is a short piece of creative nonfiction I wrote about two years back, and a piece I recently went back to after taking a memoir writing course this past semester. In fact, I loved the course so much, the form of creative nonfiction became one of my favorite styles of writing. This is also a short story I consider featured as apart of The In-Between collection, as it was something I originally wrote during that time period of my life. Hopefully next week I will be sharing more recent writing, but until then, we will stay floating in the past.
 
 Thank you for reading!
@@ -32,6 +35,6 @@ The beach is still warm even though it’s late in the afternoon. We do this all
 
 Hours later, hours we hadn’t realized passed so quickly, the sun starts setting. Summer sunsets last forever, and the gods are painting the sky reds and oranges, pinks and yellows, purples, until it fades to black. Everything fades to black, but I am feeling exceptional, and I can’t picture things going badly yet. Ice cream is suggested as we start packing towels up and taking group selfies; and, yeah, ice cream, I could go for that. The drive home is only about forty-five minutes, and it’s getting late so we have to leave now if we’re going to make it. The white lines on the highway only look like dots to me as I speed down it again. I speed, as if I’m never going to make it on time. As if the gods are going to decide to rush out on me sooner than usual. I hold my breath for safe keeping.
 
-The small Dairy Queen shack is filled to the brim with guests like ourselves, the line wrapping around and out the door. We’re all shivering: our half-clothed bodies, the ice cream chilling in the freezer. We’re practicing for death, for what it feels like when you reach Heaven. We go one by one, only having enough money for ourselves. Milkshake, Blizzard, Blizzard, Blizzard. Three upside down flips and a straw later, we find ourselves at the last available table outside. There’s a chair missing, and I feel bad so I offer to stand, but Milkshake says it’s fine and she will stand instead. We talk about nonsensical things, like the boy my cold friend will be in love with for an extra year and how we’re all *so*, so scared of college and leaving each other. It won’t be like anything we expected to feel.
+The small Dairy Queen shack is filled to the brim with guests like ourselves, the line wrapping around and out the door. We’re all shivering: our half-clothed bodies, the ice cream chilling in the freezer. We’re practicing for death, for what it feels like when you reach Heaven. We go one by one, only having enough money for ourselves. Milkshake, Blizzard, Blizzard, Blizzard. Three upside down flips and a straw later, we find ourselves at the last available table outside. There’s a chair missing, and I feel bad so I offer to stand, but Milkshake says it’s fine and she will stand instead. We talk about nonsensical things, like the boy my cold friend will be in love with for an extra year and how we’re all _so_, so scared of college and leaving each other. It won’t be like anything we expected to feel.
 
 Later, once the ice cream has melted in our cups and our acidic stomachs, I drive my friends home one by one. I save the farthest for last, for the little bit of extra time we can have together. So we have time to listen to just one more song before I turn into her driveway. The night is officially over once she leaves my car, and it’s only me on the open road again. There is ten minutes between my old life and the new one I just recently started leading. My house is just one straight shot down the road, it won’t take long to get there. Just long enough for the emptiness to settle in a little more. The gods will never rid of that completely.

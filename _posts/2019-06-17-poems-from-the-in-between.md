@@ -6,7 +6,9 @@ author: Victoria Congdon
 featured: true
 categories:
   - writing
-featured_image: /uploads/be0cb7-bca15401579b4b60a3b475a15f880291-mv2.webp
+featured-image:
+  featured_image: /uploads/be0cb7-bca15401579b4b60a3b475a15f880291-mv2.webp
+  alt:
 seo:
   title: poems from the in-between
   description:
@@ -18,9 +20,10 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 > These stories were all written within a year or so of each other. They are not linear; they’re scattered across the board. It’s a journey through death, the in-between, and rebirth: or, alternatively, bitterness, the middle, and acceptance. Feelings are a funny thing. For me, the only way I’ll ever get them out is through words. A lot of those feelings reside in the in-between though, when you’re floating and debating if you’re ever going to make it. Something fascinating about the state of the in-between is how you get there, and how you keep going.
 
-Today, I want to share a few poems from each aspect of my first poetry project, The In-Between, also what the theme of this blog is inspired by. Of course, the blog focuses primarily on *the middle*. The actual project itself has three core sections: the death, the in-between, and the rebirth. The stories of The In-Between are a journey through my freshman year of college, the hardships I dealt with, and the growth of who I was as a person. Writing is a very cathartic thing, and when I couldn't vocalize my feelings, I knew I could always write them down, whether in only a sentence or full blown paragraphs.
+Today, I want to share a few poems from each aspect of my first poetry project, The In-Between, also what the theme of this blog is inspired by. Of course, the blog focuses primarily on _the middle_. The actual project itself has three core sections: the death, the in-between, and the rebirth. The stories of The In-Between are a journey through my freshman year of college, the hardships I dealt with, and the growth of who I was as a person. Writing is a very cathartic thing, and when I couldn't vocalize my feelings, I knew I could always write them down, whether in only a sentence or full blown paragraphs.
 
 Anyway, I hope you enjoy.
 
@@ -195,8 +198,6 @@ Consecutively,
 Time and time again,
 
 By the people who are supposed to care about you.
-
-
 
 ## The Rebirth
 

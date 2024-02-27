@@ -1,14 +1,16 @@
 ---
 layout: post-with-sidebar
-title: 'Writing Wrapped: 2022 Year in Review'
+title: "Writing Wrapped: 2022 Year in Review"
 description:
 author: Victoria Congdon
 featured: true
 categories:
   - writing
-featured_image: /uploads/be0cb7-d718d492c4844c2db3c961fbb3c491dc-mv2.webp
+featured-image:
+  featured_image: /uploads/be0cb7-d718d492c4844c2db3c961fbb3c491dc-mv2.webp
+  alt:
 seo:
-  title: 'Writing Wrapped: 2022 Year in Review'
+  title: "Writing Wrapped: 2022 Year in Review"
   description:
   social_image:
   twitter_card:
@@ -18,13 +20,12 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-hi all :) long time, no post, but i wanted to share some of the writing i've been working on in 2022. the overall themes have apparently been **ghosts**, **loneliness**, **nostalgia**, and **growing up**. most of these pieces are from a collection i've fondly been calling ***notes from beyond the grave***. i don't think 2022 was an ideal year for anyone. i tried to make the most of it by going on some fun trips, going to a bunch of concerts, and, of course, focusing on school. i've been working on some select long-term writing projects, but these are a few poems i've opted to share in this writing wrapped. most of them were written fresh this year, but there are a few that were written last year and finished and edited in 2022. i liked them so much though, i decided to include them. if you read all of this, i hope you enjoy, and thank you for taking some time out of your day to do so! happy new year, here's to a (hopefully) great 2023!
+
+hi all :) long time, no post, but i wanted to share some of the writing i've been working on in 2022. the overall themes have apparently been **ghosts**, **loneliness**, **nostalgia**, and **growing up**. most of these pieces are from a collection i've fondly been calling **_notes from beyond the grave_**. i don't think 2022 was an ideal year for anyone. i tried to make the most of it by going on some fun trips, going to a bunch of concerts, and, of course, focusing on school. i've been working on some select long-term writing projects, but these are a few poems i've opted to share in this writing wrapped. most of them were written fresh this year, but there are a few that were written last year and finished and edited in 2022. i liked them so much though, i decided to include them. if you read all of this, i hope you enjoy, and thank you for taking some time out of your day to do so! happy new year, here's to a (hopefully) great 2023!
 
 ---
 
 #### <u>January 2022</u>
-
-
 
 ##### **the haunted breakfast table**
 
@@ -37,8 +38,6 @@ with the ghosts of
 at least three people
 
 who have shed their skin of me.
-
-
 
 Sometimes,
 
@@ -108,13 +107,9 @@ she’s going to be the key.
 
 #### <u>April 2022</u>
 
-
-
 ##### **i am the ghost**
 
 I think I am the ghost that lives in my house.
-
-
 
 I have a body,
 
@@ -122,13 +117,9 @@ I know it must be there.
 
 It’s carrying me through the life I think is mine.
 
-
-
 The body is visible.
 
 So where am I?
-
-
 
 The texts I send are left on delivered.
 
@@ -136,17 +127,11 @@ The body visits, the children do not respond.
 
 The words spoken must be meaningless.
 
-
-
 I am not missed.
-
-
 
 The ghost stays where it’s left,
 
 never to be bothered with again.
-
-
 
 There isn’t a grave to visit when you are haunting
 
@@ -162,29 +147,19 @@ to the pizzeria for our first date,
 
 and I was nineteen and oblivious back then.
 
-
-
 I didn’t know who to be,
 
 I just knew I couldn’t be me.
 
 Something about it was just too embarrassing to stomach.
 
-
-
 You never got to know the real me,
 
 I think this could have worked out differently.
 
-
-
 I’m very different than who I was at nineteen.
 
-
-
 What the hell were you doing with me?
-
-
 
 Now I’m stuck playing a perpetual game of
 
@@ -194,19 +169,13 @@ The way you left things was yours.
 
 Everything else can be mine.
 
-
-
 Being twenty-two is nothing new, though.
-
-
 
 This lap around the sun will soon draw to a close.
 
 You’ll always have a few years on me,
 
 I should’ve run when I felt the first urge to flee.
-
-
 
 I knew you were always going to leave.
 
@@ -216,19 +185,13 @@ I’m still staring at the white walls.
 
 The feeling never goes away.
 
-
-
 The ocean is ringing in my ears,
 
 my dog is dying in my arms,
 
 I’m standing on a playground getting burnt to a crisp.
 
-
-
 The feeling feels more distant every day.
-
-
 
 I don’t know how to tell you,
 
@@ -236,11 +199,7 @@ but I think I’ve found someone new.
 
 Even if I haven’t, I’m going to.
 
-
-
 I haven’t felt like this since before I met you.
-
-
 
 What the hell am I gonna do without you?
 
@@ -276,8 +235,6 @@ Let me suffocate in the landfill,
 
 drown in the ocean water that will eventually take over.
 
-
-
 But they don’t know me,
 
 and they still left any way,
@@ -292,7 +249,7 @@ and wait on the sidelines for the next victim to sink my teeth into.
 
 ##### **Baby Ghosts: A Two-Part Poem**
 
-*Part I*
+_Part I_
 
 A baby died in November.
 
@@ -302,8 +259,6 @@ that comes with that statement,
 
 so I let it pool inside of my chest until it dissipates.
 
-
-
 The grief is like a dam.
 
 It’s held up high by my rib cage,
@@ -311,8 +266,6 @@ It’s held up high by my rib cage,
 a little barricade for all my regrets.
 
 It leaks out a little at a time.
-
-
 
 I don’t know what to do when a baby dies.
 
@@ -322,8 +275,6 @@ and we think of the wasted potential.
 
 That’s what we’re trained to do.
 
-
-
 It’s the same as any story goes:
 
 it’s so sad what happened, I just can’t believe it.
@@ -331,8 +282,6 @@ it’s so sad what happened, I just can’t believe it.
 It’s the same every time a child dies.
 
 The death of a child is somehow more detrimental.
-
-
 
 It’s December,
 
@@ -342,8 +291,6 @@ It could be simple, just another chair to pull up
 
 at the haunted breakfast table.
 
-
-
 We chew on our words and spit them out.
 
 We’re still afraid of how they sound.
@@ -351,8 +298,6 @@ We’re still afraid of how they sound.
 Afterwards, I’ll plant the gardenias in the gardens
 
 and water all but one.
-
-
 
 There’s never going to be the right words
 
@@ -362,9 +307,7 @@ My niece, Charlotte, died in November,
 
 and the grief solidifies again.
 
-
-
-*Part II*
+_Part II_
 
 You would think by now
 
@@ -374,8 +317,6 @@ The grief is in the air,
 
 the chill running up my spine like Sisyphus.
 
-
-
 19 babies died this week,
 
 scared for their lives hiding under tables
@@ -383,8 +324,6 @@ scared for their lives hiding under tables
 in what’s marketed as a safe space.
 
 The same thing that happened a decade ago.
-
-
 
 I still fail to find the right words.
 
@@ -394,8 +333,6 @@ and my school had dividers instead of walls.
 
 So I could hear the teachers’ whispers down the halls.
 
-
-
 You can gather the kind of conversations that went on.
 
 The day proceeded as normal though,
@@ -403,8 +340,6 @@ The day proceeded as normal though,
 and I sat in a math lesson I was destined to fail at,
 
 and then I went home to my mother crying on the couch.
-
-
 
 That same chill lingered then as it does now.
 
@@ -414,8 +349,6 @@ Why do these monstrosities continue
 
 when we can all clearly remember how it feels after the matter?
 
-
-
 Where is your rage?
 
 Is it stored in the tiniest urn you’ve ever seen?
@@ -423,8 +356,6 @@ Is it stored in the tiniest urn you’ve ever seen?
 Because it’s all about the wasted potential of these children
 
 and never about the wasted potential of change and policy.
-
-
 
 I don’t know what to do when a baby dies,
 
@@ -434,8 +365,6 @@ and I certainly don’t know what to do with all this grief.
 
 It’s forming a cloud and continuing to rain down on all of us.
 
-
-
 I planted an herb garden last week,
 
 the basil just started sprouting.
@@ -443,8 +372,6 @@ the basil just started sprouting.
 My mother always stares at me,
 
 she says it’s because she still sees the little girl I used to be.
-
-
 
 Now I stare at the sproutlings rising above the dirt,
 
@@ -454,8 +381,6 @@ I catch myself staring at the new life in awe
 
 of how something I’ve nurtured is growing big and strong.
 
-
-
 The parents of the babies who have passed
 
 will now never get to do that,
@@ -463,8 +388,6 @@ will now never get to do that,
 just as I never got to meet my niece,
 
 and we all hope and pray it doesn’t happen again.
-
-
 
 Now all we’re left with are these baby ghosts,
 
@@ -477,8 +400,6 @@ that comes with that statement.
 ---
 
 #### <u>September 2022</u>
-
-
 
 ##### **Hamlet and Ophelia**
 
@@ -558,8 +479,6 @@ there was an incurable hole in my chest that still lingers
 
 to this day.
 
-
-
 I wanted romance so badly,
 
 I stopped romanticizing all I missed,
@@ -575,8 +494,6 @@ that makes us nostalgic for a childhood we lost.
 The way sunlight filters into the fourth story room
 
 that I live in for half the year.
-
-
 
 I wanted a romance that replaces the air I breathe,
 
@@ -596,8 +513,6 @@ and I’ll never get those days back.
 
 I’ll never get him back.
 
-
-
 I want romance eventually,
 
 so I hold hands with the ghosts that live on besides me,
@@ -608,8 +523,6 @@ and maybe one day I’ll be ready to let it back in.
 
 #### <u>December 2022</u>
 
-
-
 ##### **happiness after you**
 
 You’re teaching these days.
@@ -617,8 +530,6 @@ You’re teaching these days.
 I hope that makes you happy.
 
 I always wish that you’re happy.
-
-
 
 You didn’t tell me happy birthday this year,
 
@@ -631,8 +542,6 @@ but I know you’re happy,
 and despite your lack of well wishes,
 
 I think so am I.
-
-
 
 I’m writing these days.
 
@@ -664,8 +573,6 @@ I stay up too late in the evenings to finish papers I’ve had weeks to complete
 
 and the rest of the time I’m wide awake with thoughts of what could’ve been.
 
-
-
 The Christmastime is supposed to be cold,
 
 but there’s all this shit with global warming
@@ -676,15 +583,11 @@ The sun is still setting sooner though,
 
 the loneliness lingers just the same.
 
-
-
 So, I’m the kind of person who hates change,
 
 who gets sad when the sun isn’t out,
 
 and I’m never going to learn how to fold the fitted sheet.
-
-
 
 The poems are always gonna be about you,
 
@@ -698,8 +601,6 @@ it could go nice with the writing.
 
 I’m not too good at it, though.
 
-
-
 I have this thing where I need to leave some sort of mark on this burning Earth
 
 or else I was born for nothing.
@@ -711,8 +612,6 @@ what is right and what went wrong.
 Between me and you, I don’t think he knows anymore either.
 
 What God is there anyway?
-
-
 
 So, I’ll just continue doing my best at folding the fitted sheet,
 

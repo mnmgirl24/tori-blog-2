@@ -1,28 +1,26 @@
 <div class="post-item padded-1 margin-b-2 blog-post">
+  <div class="card rounded drop-shadow">
+    <a href="{{ post.url }}" aria-label="{{ post.title }}">
+      <div
+        class="bg-image square post-item-image"
+        style="background-image:url( '{{ post.featured-image.featured_image }}' );"
+        loading="lazy"
+        alt="{{ post.featured-image.alt | default: post.title | replace: '"', '' }}"
+      ></div>
+    </a>
 
-    <div class="card rounded drop-shadow">
+    <div class="padded-lg">
+      {% for item in post.categories %}
+      <a href='/{{ item | replace: " ", "-"  }}' class="tag"> {{item}} </a>
+      {% endfor %}
 
-        <a href="{{ post.url }}" aria-label="{{ post.title }}">
-            <div class="bg-image square post-item-image" 
-                 style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"  alt="{{ post.title }}">
-            </div>
-        </a>
-        
-        <div class="padded-lg">
-            
-            {% for item in post.categories %}
-                    <a href='/{{ item | replace: " ", "-"  }}' class="tag"> {{item}} </a>
-            {% endfor %}
+      <p class="blog-date">{{ post.date | date_to_string: "ordinal", "US" }}</p>
 
-            <p class="blog-date">{{ post.date | date_to_string: "ordinal", "US" }}</p>
-
-            <a href="{{ post.url }}" class="blog-title">
-                <h2 class="padded-tb"> {{ post.title }} </h2>
-            </a>
-            <p> {{ post.description | truncatewords: 17 }} </p>
-            <a href="{{ post.url }}" class="subtle-button"> Read More </a>
-
-        </div>
+      <a href="{{ post.url }}" class="blog-title">
+        <h2 class="padded-tb">{{ post.title }}</h2>
+      </a>
+      <p>{{ post.description | truncatewords: 17 }}</p>
+      <a href="{{ post.url }}" class="subtle-button"> Read More </a>
     </div>
-    
+  </div>
 </div>

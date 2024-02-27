@@ -6,7 +6,9 @@ author: Victoria Congdon
 featured: false
 categories:
   - video
-featured_image: ''
+featured-image:
+  featured_image: ""
+  alt:
 seo:
   title: Welcome to New York
   description:
@@ -18,6 +20,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 (It's been waiting for you!)
 
 Originally created August 2016

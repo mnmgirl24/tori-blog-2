@@ -28,7 +28,7 @@ layout: default
         <div class="grid flex-flip-alternate capped-width card margin-t-2 margin-b-2">
             <div class="col-6_sm-12-middle padded-sm">
                 <div class="bg-image landscape"
-                     style="background-image: url('{{ project.featured_image }}');" alt="{{ item.project }}"></div>
+                     style="background-image: url('{{ project.featured-image.featured_image }}');" alt="{{ item.featured-image.alt | default: project.title | replace: '"', '' }}"></div>
             </div>
             
             <div class="col-6_sm-12-middle padded-sm">

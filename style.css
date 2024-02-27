@@ -1095,7 +1095,8 @@ footer a {
 
 .related-posts h4 {
   grid-column: span 12;
-  padding-top: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
 }
 
 .related-posts a {

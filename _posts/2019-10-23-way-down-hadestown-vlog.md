@@ -1,14 +1,16 @@
 ---
 layout: post-with-sidebar
-title: 'Way Down, Hadestown: Vlog'
+title: "Way Down, Hadestown: Vlog"
 description:
 author: Victoria Congdon
 featured: false
 categories:
   - video
-featured_image: ''
+featured-image:
+  featured_image: ""
+  alt:
 seo:
-  title: 'Way Down, Hadestown: Vlog'
+  title: "Way Down, Hadestown: Vlog"
   description:
   social_image:
   twitter_card:
@@ -18,6 +20,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 Originally created May 2019
 
 My best friend, Becca, and I spent another summer day in New York City to be uptown girls AND see Hadestown on Broadway!

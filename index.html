@@ -2,12 +2,13 @@
 layout: default
 banner:
   banner_image: /images/tori-3.jpg
-  background-position: bg-pos-c
+  background-position: 
 about:
   about_image: /images/tori-6.jpg
   background-position: bg-pos-c
   image-frame: leaf-frame-1
   aspect-ratio: portrait
+  alt: Tori at the Eras Tour
 seo:
   title: The In-Between
   description: A blog about the middle.
@@ -47,6 +48,7 @@ seo:
     <div
       class="bg-image {{ page.about.image-frame }} {{ page.about.background-position }} {{ page.about.aspect-ratio }} drop-shadow padded-sm"
       style="background-image: url('{{ page.about.about_image }}');"
+      alt="{{ page.about.alt }}"
     ></div>
   </div>
   <div class="col-7_sm-12-middle padded-md">
@@ -75,7 +77,8 @@ seo:
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
           <div
             class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );"
+            style="background-image:url( '{{ post.featured-image.featured_image }}' );"
+            alt="{{ post.featured-image.alt | default: post.title | replace: '"', ''  }}"
             loading="lazy"
           ></div>
         </a>
@@ -106,7 +109,8 @@ seo:
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
           <div
             class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );"
+            style="background-image:url( '{{ post.featured-image.featured_image }}' );"
+            alt="{{ post.featured-image.alt | default: post.title }}"
             loading="lazy"
           ></div>
         </a>

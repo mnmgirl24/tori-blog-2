@@ -1,14 +1,16 @@
 ---
 layout: post-with-sidebar
-title: 'Ledyard Music Takes on Disney World: All 4 Parts!'
+title: "Ledyard Music Takes on Disney World: All 4 Parts!"
 description:
 author: Victoria Congdon
 featured: false
 categories:
   - video
-featured_image: ''
+featured-image:
+  featured_image: ""
+  alt:
 seo:
-  title: 'Ledyard Music Takes on Disney World: All 4 Parts!'
+  title: "Ledyard Music Takes on Disney World: All 4 Parts!"
   description:
   social_image:
   twitter_card:
@@ -18,6 +20,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 Originally captured March 24-27, 2017
 
 Ledyard Music went to perform in Walt Disney World, and somehow I managed to capture my favorite parts! See all four days of my trip below!

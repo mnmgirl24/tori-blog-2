@@ -1,14 +1,16 @@
 ---
 layout: post-with-sidebar
-title: 'spotify playlist update: june 17, 2019'
+title: "spotify playlist update: june 17, 2019"
 description:
 author: Victoria Congdon
 featured: false
 categories:
   - lifestyle
-featured_image: /uploads/be0cb7-1155fc5d1f754c3aa0e5aa3e271314bc-mv2.webp
+featured-image:
+  featured_image: /uploads/be0cb7-1155fc5d1f754c3aa0e5aa3e271314bc-mv2.webp
+  alt:
 seo:
-  title: 'spotify playlist update: june 17, 2019'
+  title: "spotify playlist update: june 17, 2019"
   description:
   social_image:
   twitter_card:
@@ -18,6 +20,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
 <div class="cms-embed" data-cms-embed="PGlmcmFtZSBzdHlsZT0iYm9yZGVyLXJhZGl1czoxMnB4OyIgc3JjPSJodHRwczovL29wZW4uc3BvdGlmeS5jb20vZW1iZWQvcGxheWxpc3QvM2l1R0NSa2N4MFVDZmF4djVtU2FSQz91dG1fc291cmNlPWdlbmVyYXRvciIgd2lkdGg9IjUwJSIgaGVpZ2h0PSIxNTIiIGZyYW1lYm9yZGVyPSIwIiBhbGxvd2Z1bGxzY3JlZW4gYWxsb3c9ImF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZnVsbHNjcmVlbjsgcGljdHVyZS1pbi1waWN0dXJlIiBsb2FkaW5nPSJsYXp5Ij48L2lmcmFtZT4="><iframe style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/3iuGCRkcx0UCfaxv5mSaRC?utm_source=generator" width="50%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 
 everybody's cool but me - johan
@@ -80,17 +83,15 @@ colors - halsey
 
 you need to calm down - taylor swift
 
-
-
 This week, my playlist is filled with a variety of sad, tragic break-up songs alongside feel good, self-love anthems, and a few things in between (pun not intended). It's a mix of over the top pop, to harsh rock beats, to acoustic cut throat strings. Admittedly, it's not the best to start your summer out sad, but I'm lucky to have found these songs to help me through the wild emotions of longing I've been having. While I would love to go in depth about every song on this list, I will point out a few must-listens and my favorite lyrics from them:
 
-* **number one fan** - muna
+- **number one fan** - muna
 
 So I heard the bad news / Nobody likes me and I'm gonna die alone / In my bedroom / Looking at strangers on my telephone"
 
 This fresh new single is the lead off of MUNA's sophomore album, Saves the World. While this bop starts off negatively and harsh, the song is really about the negative voices in your head and how to shout back at them. Continuing with the '80s pop theme, this song is truly so iconic, like big, like stan.
 
-* **the pull of you** - the national
+- **the pull of you** - the national
 
 From The National's eighth studio album, I Am Easy To Find, The Pull of You is a song about losing someone you care about while still feeling their presence within you and wishing to see them again. It's an intense feeling, and something I can really relate to currently, which is why this song is a top pick from my playlist. My favorite part of the song is a speaking interlude portion, and personally, I feel like this really encompasses the confusing mood of the playlist:
 
@@ -120,19 +121,19 @@ From The National's eighth studio album, I Am Easy To Find, The Pull of You is a
 >
 > Here at the approach of the end of everything.
 
-* **colors** \- halsey
+- **colors** \- halsey
 
 "You were red, and you liked me because I was blue / But you touched me, and suddenly I was a lilac sky / Then you decided purple just wasn't for you"
 
 Colors was the second single from Halsey's first album, Badlands, released in 2015. The lyric I've chosen is quite a popular one among Tumblr users, which is where she originally posted these lyrics long before the album was ever actually released, leading listeners to believe she plagiarized her own lyrics. The song itself is about falling out of love with someone because of how much that person had changed. I love this song because of how deeply personal the lyrics are, and I love how Halsey plays with the meaning of different colors on this track, fitting with the title.
 
-* **juice** \- lizzo
+- **juice** \- lizzo
 
 "If I'm shining, everybody gonna shine / I was born like this, don't even gotta try / I'm like chardonnay, get better over time / Heard you say I'm not the baddest, bitch, you lyin!"
 
 I have to thank my friend Tricia for this one, because without her constantly saying, "Anyway, stream Lizzo," I never would've given it a chance. However, this is a certifiable Bop, and definitely the feel good song of the summer. It oozes self-confidence and self-love right alongside feel good vibes in the under current of poppy, Prince-like instrumentals. When I'm feeling down, I definitely can turn this up in the car and yell along to these happy lyrics and feel so much better.
 
-* **you need to calm down** - taylor swift
+- **you need to calm down** - taylor swift
 
 "You just need to take several seats and then try to restore the peace / And control your urges to scream about all the people you hate / 'Cause shade never made anybody less gay"
 
@@ -142,5 +143,5 @@ Again, I wish I could talk about each and every one of these songs, but I feel l
 
 In addition, this week's project updates:
 
-* words left unsaid in a room with the door left wide open (poetry)
-* the multiverse (creative nonfiction)
+- words left unsaid in a room with the door left wide open (poetry)
+- the multiverse (creative nonfiction)
