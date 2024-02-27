@@ -3,74 +3,137 @@ layout: default
 seo:
   title: About Tori | The In-Between
   description: A blog about the in-between.
-  keywords: 
+  keywords:
   hide-from-google: false
-banner_image: images/tori-9.webp
-blog_image: images/tori-9.webp
-profile_image: images/tori-8.jpg
+banner:
+  banner_image: /images/tori-9.webp
+  background-position: bg-pos-t
+blog:
+  blog_image: /images/tori-9.webp
+  background-position: bg-pos-r
+  image-frame: leaf-frame-2
+  aspect-ratio: portrait
+profile:
+  profile_image: /images/tori-8.jpg
+  background-position:
+  image-frame: leaf-frame-1
+  aspect-ratio: portrait
 ---
 
 <!------------------------ Image Banner  ------------------------>
-<section class="bg-image padded-md grid bg-overlay tall-50 bg-pos-t"
-         style="background-image: url('{{ page.banner_image }}');" loading="lazy">
-
-    <div class="col-12-middle text-center">
-        <h3 class="editable italic text-light">
-            “woke up, i’m in the in-between honey” - goodmorning, bleachers
-        </h3>
-    </div>
-
+<section
+  class="bg-image padded-md grid bg-overlay tall-50 {{ page.banner.background-position }}"
+  style="background-image: url('{{ page.banner.banner_image }}');"
+  loading="lazy"
+>
+  <div class="col-12-middle text-center">
+    <h3 class="editable italic text-light">
+      “woke up, i’m in the in-between honey” - goodmorning, bleachers
+    </h3>
+  </div>
 </section>
-
 
 <!------------------------ About Blog ------------------------>
 <section class="padded-md bg-featured-light-split-left" id="about-blog">
-    <div class="padded-md" id="about-blog-desc">
-        <h2 class="editable">an introduction to the in-between.</h2>
-        <p class="editable">Admittedly, I've never "blogged" before. This is all very new for me, but I'm excited to be here and to be doing this. I decided to create this blog in the beginning of the year, but it wasn't until recently I found the motivation to finish it - the whole turn-your-pain-into-art kind of thing.</p>
-        <p class="editable">First thing's first: what is The In-Between?</p>
-        <p class="editable">The title The In-Between actually comes from a previous project I finished a few months ago, also titled The In-Between. However, when I was creating this space, I thought the concept of the in-between would make a great theme here too. A blog about the middle. When you think about it, our whole life is just one big middle, and in the middle of everything, you experience all of these wonderful and horrifying events and emotions that form you into the person you are. You fill yourself with interests and people that make you feel complete until they're gone. Then you find new interests and meet new people, and the cycle continues. </p>
-        <p class="editable">Imagine: you’re wading yourself into the ocean, getting used to the chill, and wondering if it will ever get warmer. When you’re standing there, knee-length in, you wonder if it’s worth going all the way. Then you keep going, and you think: what if I never come out? You float for a while, you swim, you splash, you go under. Eventually, you do come back out. </p>
-        <p class="editable">For me, the in-between is all about how you act during the middle of something. It’s about those moments of just floating, imagining all of the what-if's. Those moments in the water are the ones where you really think and evaluate yourself. </p>
-        <p class="editable">In our lives, we’ll have many in-between moments. We have at least one every single day. We go to sleep, we dream, we wake up. We start the car, we drive, we reach our destination. We’re born, we live, we die. And then we do it all over again. Those in-between moments are important, though. They keep our lives interesting. It’s the quiet moments, the moments when we’re sitting in our bedrooms overthinking an ending, or we’re driving and our favorite song is on the radio.</p>
-        <p class="editable">The moment when you’re floating in the middle of the ocean.</p>
-        <p class="editable">The original In-Between is a collection of poems and stories I wrote within a year or so of each other. The OG is what inspired me to keep going with the concept, which eventually turned into this blog.</p>
-        <p class="editable">This brings me to the second question: what am I going to do with this blog?</p>
-        <p class="editable">Originally, I wanted to create an archive where I could post all of my creative writing projects. Then, I thought about what kind of platform I wanted to use, and when the idea of a blog crossed my mind, I thought of how many different things I could do with one. I thought of the opinion pieces I could write, the insightful life advice I could give, and how I could discuss media I'm interested in.</p>
-        <p class="editable">So, really, I'm going to be doing the most with this blog. It's one big passion project. It's a safe space to explore other types of writing, and to engage with the universe.</p>
-        <p class="editable">Of course, I'm still figuring out the whole "blogging" thing, but this little piece of the Internet is mine to explore and post as I please. Mostly, I'm just excited to share my words and my thoughts to an audience, no matter how big or small it is, and I hope everyone enjoys their time here.</p>
-        <p class="editable">So, what's the plan?</p>
-        <p class="editable">Basically, I plan on posting just little weekly updates of what I want to share and where I am at. I'll be posting writing compilations, actual blog posts, and every week I will post an updated playlist of current songs I am listening to and a progress report of what I'm currently working on. If I'm feeling particularly spicy, maybe I'll up it to twice a week, but as of right now, I'm just going with the flow.</p>
-        <p class="editable">Thank you for reading, and welcome to The In-Between. I hope you enjoy your time in the middle, wherever that may be for you.</p>
-        <p class="editable text-sig">Much love, Tori</p>
-        <a href="/blog" class="button accent-button editable">Read More</a>
-    </div>
+  <div class="padded-md" id="about-blog-desc">
+    <h2 class="editable">an introduction to the in-between.</h2>
+    <p class="editable">
+      Admittedly, I've never "blogged" before. This is all very new for me, but
+      I'm excited to be here and to be doing this. I decided to create this blog
+      in the beginning of the year, but it wasn't until recently I found the
+      motivation to finish it - the whole turn-your-pain-into-art kind of thing.
+      <br />First thing's first: what is The In-Between? <br />The title The
+      In-Between actually comes from a previous project I finished a few months
+      ago, also titled The In-Between. However, when I was creating this space,
+      I thought the concept of the in-between would make a great theme here too.
+      A blog about the middle. When you think about it, our whole life is just
+      one big middle, and in the middle of everything, you experience all of
+      these wonderful and horrifying events and emotions that form you into the
+      person you are. You fill yourself with interests and people that make you
+      feel complete until they're gone. Then you find new interests and meet new
+      people, and the cycle continues. <br />Imagine: you’re wading yourself
+      into the ocean, getting used to the chill, and wondering if it will ever
+      get warmer. When you’re standing there, knee-length in, you wonder if it’s
+      worth going all the way. Then you keep going, and you think: what if I
+      never come out? You float for a while, you swim, you splash, you go under.
+      Eventually, you do come back out. <br />For me, the in-between is all
+      about how you act during the middle of something. It’s about those moments
+      of just floating, imagining all of the what-if's. Those moments in the
+      water are the ones where you really think and evaluate yourself. <br />In
+      our lives, we’ll have many in-between moments. We have at least one every
+      single day. We go to sleep, we dream, we wake up. We start the car, we
+      drive, we reach our destination. We’re born, we live, we die. And then we
+      do it all over again. Those in-between moments are important, though. They
+      keep our lives interesting. It’s the quiet moments, the moments when we’re
+      sitting in our bedrooms overthinking an ending, or we’re driving and our
+      favorite song is on the radio. <br />The moment when you’re floating in
+      the middle of the ocean. <br />The original In-Between is a collection of
+      poems and stories I wrote within a year or so of each other. The OG is
+      what inspired me to keep going with the concept, which eventually turned
+      into this blog. <br />This brings me to the second question: what am I
+      going to do with this blog? <br />Originally, I wanted to create an
+      archive where I could post all of my creative writing projects. Then, I
+      thought about what kind of platform I wanted to use, and when the idea of
+      a blog crossed my mind, I thought of how many different things I could do
+      with one. I thought of the opinion pieces I could write, the insightful
+      life advice I could give, and how I could discuss media I'm interested in.
+      <br />So, really, I'm going to be doing the most with this blog. It's one
+      big passion project. It's a safe space to explore other types of writing,
+      and to engage with the universe. <br />Of course, I'm still figuring out
+      the whole "blogging" thing, but this little piece of the Internet is mine
+      to explore and post as I please. Mostly, I'm just excited to share my
+      words and my thoughts to an audience, no matter how big or small it is,
+      and I hope everyone enjoys their time here. <br />So, what's the plan?
+      <br />Basically, I plan on posting just little weekly updates of what I
+      want to share and where I am at. I'll be posting writing compilations,
+      actual blog posts, and every week I will post an updated playlist of
+      current songs I am listening to and a progress report of what I'm
+      currently working on. If I'm feeling particularly spicy, maybe I'll up it
+      to twice a week, but as of right now, I'm just going with the flow.
+      <br />Thank you for reading, and welcome to The In-Between. I hope you
+      enjoy your time in the middle, wherever that may be for you.
+    </p>
+    <p class="editable text-sig">Much love, Tori</p>
+    <a href="/blog" class="button accent-button">Read More</a>
+  </div>
 
-    <div id="about-blog-img">
-        <div class="bg-image portrait sm-square leaf-frame-2 drop-shadow padded-md bg-pos-r"
-             style="background-image: url('{{ page.blog_image }}');" loading="lazy"></div>
-    </div>
+  <div id="about-blog-img">
+    <div
+      class="bg-image {{ page.blog.aspect-ratio }} {{ page.blog.background-position }} {{ page.blog.image-frame }} drop-shadow padded-md"
+      style="background-image: url('{{ page.blog.blog_image }}');"
+      loading="lazy"
+    ></div>
+  </div>
 </section>
-
-
 
 <!------------------------ Subscribe banner  ------------------------>
 {% include subscribe-banner.html %}
 
-
-
 <!------------------------ About Tori ------------------------>
 <section class="padded-md bg-accent-light-split-right">
-    <div class="grid-spaceAround-middle flex-flip-sm">
-        <div class="col-4_sm-12-middle">
-            <div class="bg-image portrait sm-square leaf-frame-1 drop-shadow padded-sm"
-                 style="background-image: url('{{ page.profile_image }}');" loading="lazy"></div>
-        </div>
-        <div class="col-7_sm-12-middle padded-md">
-            <h2 class="editable sm-padded-t-1">about tori.</h2>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, labore quas eaque, vitae voluptates cum nihil dignissimos porro fuga sapiente aspernatur facere, similique tenetur vero eum ipsum vel voluptate sit!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione dolore earum voluptatem minus! Amet possimus, cupiditate omnis ea facere provident alias quis autem quia ipsum accusamus obcaecati aliquam repellat.</p>
-            <a href="/portfolio" class="button featured-button">View My Portfolio</a>
-        </div>
-    </div>   
+  <div class="grid-spaceAround-middle flex-flip-sm">
+    <div class="col-4_sm-12-middle">
+      <div
+        class="bg-image {{ page.profile.aspect-ratio }} {{ page.profile.background-position }} {{ page.profile.image-frame }} drop-shadow padded-sm"
+        style="background-image: url('{{ page.profile.profile_image }}');"
+        loading="lazy"
+      ></div>
+    </div>
+    <div class="col-7_sm-12-middle padded-md">
+      <h2 class="editable sm-padded-t-1">about tori.</h2>
+      <p class="editable">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+        labore quas eaque, vitae voluptates cum nihil dignissimos porro fuga
+        sapiente aspernatur facere, similique tenetur vero eum ipsum vel
+        voluptate sit!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione
+        dolore earum voluptatem minus! Amet possimus, cupiditate omnis ea facere
+        provident alias quis autem quia ipsum accusamus obcaecati aliquam
+        repellat.
+      </p>
+      <a href="/portfolio" class="button featured-button">View My Portfolio</a>
+    </div>
+  </div>
 </section>
