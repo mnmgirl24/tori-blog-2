@@ -6,7 +6,7 @@ banner:
 about:
   about_image: /images/tori-6.jpg
   background-position: bg-pos-c
-  image-frame: leaf-frame-1
+  image-frame: leaf-frame-2
   aspect-ratio: portrait
 seo:
   title: The In-Between
@@ -16,7 +16,6 @@ seo:
   keywords:
   hide-from-google: false
 ---
-
 <!-- Animated screen cover -->
 <div class="top-screen-load bg-accent">
   <h1 class="text-light dec-text screen-load-text">
@@ -26,11 +25,8 @@ seo:
 <div class="bottom-screen-load bg-accent"></div>
 
 <!------------------------ Image Banner  ------------------------>
-<section
-  class="bg-image padded-md grid bg-overlay tall-90 {{ page.banner.background-position }}"
-  style="background-image: url('{{ page.banner.banner_image }}');
-         background-position: 0 40%;"
->
+<section class="bg-image padded-md grid bg-overlay tall-90 {{ page.banner.background-position }}" style="background-image: url('{{ page.banner.banner_image }}');
+         background-position: 0 40%;">
   <div class="col-12-middle text-center">
     <h1 class="text-light dec-text hero-text">
       {{ site.data.site-settings.seo.title }}
@@ -39,15 +35,9 @@ seo:
 </section>
 
 <!------------------------ About  ------------------------>
-<section
-  class="padded-md grid-spaceAround-middle bg-accent-light-split-right tall-70"
-  id="about-block"
->
+<section class="padded-md grid-spaceAround-middle bg-accent-light-split-right tall-70" id="about-block">
   <div class="col-4_sm-12-middle">
-    <div
-      class="bg-image {{ page.about.image-frame }} {{ page.about.background-position }} {{ page.about.aspect-ratio }} drop-shadow padded-sm"
-      style="background-image: url('{{ page.about.about_image }}');"
-    ></div>
+    <div class="bg-image {{ page.about.image-frame }} {{ page.about.background-position }} {{ page.about.aspect-ratio }} drop-shadow padded-sm" style="background-image: url('{{ page.about.about_image }}');"></div>
   </div>
   <div class="col-7_sm-12-middle padded-md">
     <h2 class="editable">{{ site.data.site-settings.seo.description }}</h2>
@@ -73,11 +63,7 @@ seo:
     <div class="post-item padded-1 featured-blogs-card">
       <div class="card rounded drop-shadow">
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
-          <div
-            class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );"
-            loading="lazy"
-          ></div>
+          <div class="bg-image square post-item-image" style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"></div>
         </a>
 
         <div class="padded-lg">
@@ -104,11 +90,7 @@ seo:
     <div class="post-item padded-1 featured-blogs-card carousel-cell">
       <div class="card rounded">
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
-          <div
-            class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured_image }}' );"
-            loading="lazy"
-          ></div>
+          <div class="bg-image square post-item-image" style="background-image:url( '{{ post.featured_image }}' );" loading="lazy"></div>
         </a>
 
         <div class="padded-lg card-text">
