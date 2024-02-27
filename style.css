@@ -542,6 +542,10 @@ a.bg-image {
   border-radius: 0 10rem;
 }
 
+.no-frame {
+  border-radius: none;
+}
+
 i {
   display: inline;
 }
@@ -562,6 +566,9 @@ i {
 }
 .bg-pos-r {
   background-position: right;
+}
+.bg-pos-c {
+  background-position: center;
 }
 
 /* Gallery styles */

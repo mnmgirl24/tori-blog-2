@@ -49,8 +49,9 @@ _select_data:
   frames:
     - leaf-frame-1
     - leaf-frame-2
+    - no-frame
 
-  background-position:
+  background-positions:
     - bg-pos-t: Top
     - bg-pos-b: Bottom
     - bg-pos-l: Left
@@ -65,7 +66,7 @@ _select_data:
     col-4_sm-12: One Third (Stacked)
     col-3_sm-12: One Quarter (Stacked)
 
-  background-color:
+  background-colors:
     bg-accent: Accent Color Background
     bg-featured: Featured Color Background
     bg-accent-light: Light Accent Background
@@ -80,5 +81,6 @@ _select_data:
     bg-featured-light-split-top: Light Featured Top Split Background
     bg-featured-light-split-bottom: Light Featured Bottom Split Background
 
-  gallery-type: -Popup Gallery
-    -Standard Gallery
+  gallery-types:
+    - Popup Gallery
+    - Standard Gallery
