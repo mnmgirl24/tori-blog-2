@@ -897,7 +897,7 @@ nav a:hover {
   cursor: pointer;
   position: relative;
   padding: 1vw;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
   z-index: 2;
 }
 
@@ -1113,7 +1113,7 @@ footer a {
   font-size: 0.9rem;
   margin-right: 0.4rem;
   text-decoration: none;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
 }
 
 .tag:hover {
@@ -1131,6 +1131,12 @@ footer a {
   font-family: "Martel", serif;
   font-weight: 200;
   font-size: 3rem;
+  line-height: 1.25;
+}
+
+.blog-content .tag {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .blog-content p {
@@ -1157,18 +1163,22 @@ footer a {
 .recent-posts-nav a {
   display: block;
   font-weight: 300;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
 }
 
 .recent-posts-nav a:hover {
   color: var(--featured);
 }
 
+nav .tag:hover {
+  color: var(--medium-text);
+}
+
 /* Social Share Nav  */
 
 .social-share a {
   padding: 0.25rem 0.75rem;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
 }
 
 .social-share a:hover {
@@ -1176,6 +1186,12 @@ footer a {
 }
 
 /* Miscellaneous elements  */
+
+.divider {
+  width: 80vw;
+  margin: 2rem auto;
+  margin-top: 4rem;
+}
 
 hr.short {
   border: 1px solid var(--dark-text);
@@ -1295,6 +1311,10 @@ hr.short.center {
   .carousel .post-item-image {
     width: 100%;
     max-height: 50svh;
+  }
+
+  .related-posts h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -1446,6 +1466,32 @@ hr.short.center {
   }
   .leaf-frame-2 {
     border-radius: 0 5rem;
+  }
+
+  .sidebar-item p {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .recent-posts-nav a {
+    font-weight: 400;
+  }
+
+  .related-posts {
+    gap: 0.5rem;
+  }
+
+  .related-posts h4 {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+  }
+
+  .related-posts h3 {
+    font-size: 1.5rem;
+  }
+
+  .related-posts a {
+    grid-column: span 12;
   }
 }
 
