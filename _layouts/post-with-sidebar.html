@@ -4,12 +4,16 @@ layout: default
 
 
   <section class="grid padded-md capped-width-wide bg-accent-light-split-right">
-    <!-- <div
-  class="bg-image padded-md grid bg-overlay tall-60 col-12 {{ page.featured-image.background-position }}"
+
+    <div class="padded-1 col-9_md-8_sm-12 blog-content">
+    {% if page.featured-image.featured_image != '' %}
+    <div
+  class="bg-image padded-md bg-overlay tall-60 {{ page.featured-image.background-position }}"
   style="background-image: url('{{ page.featured-image.featured_image }}');"
   alt="{{ page.featured-image.alt | default: page.title | replace: '"', '' }}"
-></div> -->
-    <div class="padded-1 col-9_md-8_sm-12 blog-content">
+></div>
+{% endif %}
+
       <div class="intro padded-1">
         {% for item in page.categories %}
         <a href='/{{ item | replace: " ", "-"   }}' class="tag"> {{ item }}</a>

@@ -30,6 +30,7 @@ RUN apt-get update \
     && gem install \
         bundler \
         jekyll \
+        jekyll-paginate-v2 \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
     && groupadd --gid $USER_GID $USERNAME \

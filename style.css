@@ -1161,7 +1161,7 @@ footer a {
 }
 
 .recent-posts-nav a {
-  display: block;
+  display: block; 
   font-weight: 300;
   transition: all 0.2s linear;
 }
