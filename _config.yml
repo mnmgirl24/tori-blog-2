@@ -56,6 +56,7 @@ _select_data:
     - bg-pos-b: Bottom
     - bg-pos-l: Left
     - bg-pos-r: Right
+    - bg-pos-c: Center
 
   column-sizes:
     col-6: One Half
