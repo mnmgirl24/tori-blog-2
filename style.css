@@ -1149,6 +1149,32 @@ footer a {
   margin-bottom: 1rem;
 }
 
+/* Pagination */
+.page-trail {
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  width: 100vw;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-trail a {
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  color: var(--medium-text);
+  padding: 0.5rem;
+}
+
+.page-trail .selected {
+  color: var(--featured-text);
+}
+
+.page-trail a:hover {
+  color: var(--accent);
+}
+
 /* Sidebar */
 .sidebar-item {
   border: 2px solid var(--light);
@@ -1161,7 +1187,7 @@ footer a {
 }
 
 .recent-posts-nav a {
-  display: block; 
+  display: block;
   font-weight: 300;
   transition: all 0.2s linear;
 }
