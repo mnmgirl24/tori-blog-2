@@ -72,13 +72,13 @@ function createFadeIn(target, options) {
 
 let scrollAbout = gsap.timeline({
   scrollTrigger: {
-    trigger: "#about-block",
+    trigger: ".about-block",
     toggleActions: "restart none none none",
     start: "10% bottom",
   },
 });
 
-scrollAbout.add(createFadeIn("#about-block > *", {}));
+scrollAbout.add(createFadeIn(".about-block > *", {}));
 
 let scrollFeaturePost = gsap.timeline({
   scrollTrigger: {
@@ -104,13 +104,22 @@ scrollBlogCats
   .add(createFadeIn("#blog-topics .subhead", {}))
   .add(createFadeIn("#blog-topics .carousel", {}), "<0.2");
 
-// let scrollFooter = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: "#footer",
-//     toggleActions: "restart none none none",
-//     // start: "10% bottom",
-//   },
-// });
+let scrollAboutBanner = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#about-banner",
+    toggleActions: "restart none none none",
+    // start: "10% bottom",
+  },
+});
 
-// scrollFooter.add(createFadeIn("footer *", {}));
-// .add(createFadeIn("#blog-topics .carousel", {}), "<0.2");
+scrollAboutBanner.add(createFadeIn("#about-banner h3", {}));
+
+let scrollAboutDesc = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#about-blog",
+    toggleActions: "play none none none",
+    start: "20% bottom",
+  },
+});
+
+scrollAboutDesc.add(createFadeIn("#about-blog > *", {}));

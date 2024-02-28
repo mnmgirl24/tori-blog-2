@@ -27,6 +27,7 @@ profile:
 <section
   class="bg-image padded-md grid bg-overlay tall-50 {{ page.banner.background-position }}"
   style="background-image: url('{{ page.banner.banner_image }}');"
+  id="about-banner"
   loading="lazy"
 >
   <div class="col-12-middle text-center">
@@ -114,25 +115,24 @@ profile:
 {% include subscribe-banner.html %}
 
 <!------------------------ About Tori ------------------------>
-<section class="padded-md bg-accent-light-split-right">
-  <div class="grid-spaceAround-middle flex-flip-sm">
-    <div class="col-4_sm-12-middle">
-      <div
-        class="bg-image {{ page.profile.aspect-ratio }} {{ page.profile.background-position }} {{ page.profile.image-frame }} drop-shadow padded-sm"
-        style="background-image: url('{{ page.profile.profile_image }}');"
-        alt="{{ page.profile.alt }}"
-        loading="lazy"
-      ></div>
-    </div>
-    <div class="col-7_sm-12-middle padded-md">
-      <h2 class="editable sm-padded-t-1">about tori.</h2>
-      <p class="editable">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-        labore quas eaque, vitae voluptates cum nihil dignissimos porro fuga
-        sapiente aspernatur facere, similique tenetur vero eum ipsum vel
-        voluptate sit!
-      </p>
-      <a href="/portfolio" class="button featured-button">View My Portfolio</a>
-    </div>
+<section
+  class="padded-md bg-accent-light-split-right grid-spaceAround-middle flex-flip-sm about-block"
+>
+  <div class="col-4_sm-12-middle">
+    <div
+      class="bg-image {{ page.profile.aspect-ratio }} {{ page.profile.background-position }} {{ page.profile.image-frame }} drop-shadow padded-sm"
+      style="background-image: url('{{ page.profile.profile_image }}');"
+      alt="{{ page.profile.alt }}"
+      loading="lazy"
+    ></div>
+  </div>
+  <div class="col-7_sm-12-middle padded-md">
+    <h2 class="editable sm-padded-t-1">about tori.</h2>
+    <p class="editable">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, labore
+      quas eaque, vitae voluptates cum nihil dignissimos porro fuga sapiente
+      aspernatur facere, similique tenetur vero eum ipsum vel voluptate sit!
+    </p>
+    <a href="/portfolio" class="button featured-button">View My Portfolio</a>
   </div>
 </section>
