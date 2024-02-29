@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'jekyll'
-gem 'jekyll-paginate-v2'
+source "https://rubygems.org"
+
+# gem "rails"
+gem "jekyll"
+gem "jekyll-paginate-v2"
