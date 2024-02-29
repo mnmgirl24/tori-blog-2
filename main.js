@@ -50,6 +50,8 @@ lightGallery(document.getElementById("lightgallery"), {
 
 // GSAP
 
+document.addEventListener("DOMContentLoaded", function(){
+
 let screenLoadTimeline = gsap.timeline({
   duration: 1,
   delay: 1,
@@ -135,3 +137,5 @@ let scrollBlogPosts = gsap.timeline({
 scrollBlogPosts
   // .add(createFadeIn(".blog-page-header", {}))
   .add(createFadeIn(".top-blog-page-section > *", {}), "<0.2");
+
+})
