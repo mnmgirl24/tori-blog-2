@@ -1472,7 +1472,7 @@ hr.short.center {
   }
 
   .blog-title h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   #about-blog-desc {
@@ -1518,6 +1518,10 @@ hr.short.center {
 
   .related-posts a {
     grid-column: span 12;
+  }
+
+  .cta h2 {
+    font-size: 1.7rem;
   }
 }
 
