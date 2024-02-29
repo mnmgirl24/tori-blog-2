@@ -50,9 +50,13 @@ lightGallery(document.getElementById("lightgallery"), {
 
 // GSAP
 
-let timeline = gsap.timeline({ duration: 1, delay: 1, ease: "elastic" });
+let screenLoadTimeline = gsap.timeline({
+  duration: 1,
+  delay: 1,
+  ease: "elastic",
+});
 
-timeline
+screenLoadTimeline
   .to(".top-screen-load", { xPercent: -100 }, 1)
   .to(".bottom-screen-load", { xPercent: 100 }, 1);
 
@@ -84,7 +88,6 @@ let scrollFeaturePost = gsap.timeline({
   scrollTrigger: {
     trigger: "#featured-blog-loop",
     toggleActions: "restart none none none",
-    // start: "10% bottom",
   },
 });
 
@@ -96,7 +99,6 @@ let scrollBlogCats = gsap.timeline({
   scrollTrigger: {
     trigger: "#blog-topics",
     toggleActions: "restart none none none",
-    // start: "10% bottom",
   },
 });
 
@@ -108,7 +110,6 @@ let scrollAboutBanner = gsap.timeline({
   scrollTrigger: {
     trigger: "#about-banner",
     toggleActions: "restart none none none",
-    // start: "10% bottom",
   },
 });
 
@@ -123,3 +124,14 @@ let scrollAboutDesc = gsap.timeline({
 });
 
 scrollAboutDesc.add(createFadeIn("#about-blog > *", {}));
+
+let scrollBlogPosts = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".top-blog-page-section",
+    toggleActions: "play none none none",
+  },
+});
+
+scrollBlogPosts
+  // .add(createFadeIn(".blog-page-header", {}))
+  .add(createFadeIn(".top-blog-page-section > *", {}), "<0.2");
