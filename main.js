@@ -42,6 +42,15 @@ $(document).ready(function () {
   });
 });
 
+//Slick
+
+$(document).ready(function () {
+  $(".featured-blogs-slick").slick({
+    lazyLoad: true,
+    slidesToShow: 1,
+  });
+});
+
 // Lightgallery script
 lightGallery(document.getElementById("lightgallery"), {
   speed: 300,
@@ -87,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let scrollAbout = gsap.timeline({
     scrollTrigger: {
       trigger: ".about-block",
-      toggleActions: "restart none none none",
+      toggleActions: "play none none none",
       start: "10% bottom",
     },
   });
@@ -97,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let scrollFeaturePost = gsap.timeline({
     scrollTrigger: {
       trigger: "#featured-blog-loop",
-      toggleActions: "restart none none none",
+      toggleActions: "play none none none",
     },
   });
 
@@ -108,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let scrollBlogCats = gsap.timeline({
     scrollTrigger: {
       trigger: "#blog-topics",
-      toggleActions: "restart none none none",
+      toggleActions: "play none none none",
     },
   });
 
@@ -119,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let scrollAboutBanner = gsap.timeline({
     scrollTrigger: {
       trigger: "#about-banner",
-      toggleActions: "restart none none none",
+      toggleActions: "play none none none",
     },
   });
 
