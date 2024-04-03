@@ -69,11 +69,10 @@ seo:
     <h2 class="editable subhead">Featured Posts</h2>
   </div>
 
-  <div class="featured-blogs hide-sm">
+  <div class="featured-blogs-slick">
     {% assign featured_posts = site.posts | where: 'featured', true %} {% for
     post in featured_posts limit:3 %}
 
-    <div class="post-item padded-1 featured-blogs-card">
       <div class="card rounded drop-shadow">
         <a href="{{ post.url }}" aria-label="{{ post.title }}">
           <div
@@ -96,103 +95,9 @@ seo:
           <a href="{{ post.url }}" class="subtle-button"> Read More </a>
         </div>
       </div>
-    </div>
 
     {% endfor %}
-  </div>
-
-  <!-- <div class="featured-blogs carousel show-sm">
-    {% assign featured_posts = site.posts | where: 'featured', true %} {% for
-    post in featured_posts limit:3 %}
-
-    <div class="post-item padded-1 featured-blogs-card carousel-cell">
-      <div class="card rounded">
-        <a href="{{ post.url }}" aria-label="{{ post.title }}">
-          <div
-            class="bg-image square post-item-image"
-            style="background-image:url( '{{ post.featured-image.featured_image }}' );"
-            alt="{{ post.featured-image.alt | default: post.title }}"
-            loading="lazy"
-          ></div>
-        </a>
-
-        <div class="padded-lg card-text">
-          {% for item in post.categories %}
-          <a href='/{{ item | replace: " ", "-"  }}' class="tag"> {{item}} </a>
-          {% endfor %}
-
-          <a href="{{ post.url }}" class="blog-title">
-            <h2 class="padded-t-05 padded-b-1 margin-t-05">{{ post.title }}</h2>
-          </a>
-          <p>{{ post.description | truncatewords: 17 }}</p>
-          <p><a href="{{ post.url }}" class="subtle-button"> Read More </a></p>
-        </div>
-      </div>
     </div>
-
-    {% endfor %}
-  </div> -->
-
-  <div class="featured-blogs-slick">
-    <div class="card rounded drop-shadow">
-        <a href="" aria-label="">
-          <div
-            class="bg-image square post-item-image"
-            style="background-image:url( '/images/tori-1.webp' );"
-            loading="lazy"
-          ></div>
-        </a>
-
-        <div class="padded-lg">
-          <a href='' class="tag"> stuff </a>
-
-          <a href="" class="blog-title">
-            <h2 class="padded-t-05 padded-b-1 margin-t-05">A blog post</h2>
-          </a>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio provident ut eveniet nihil pariatur recusandae possimus repudiandae neque, inventore debitis saepe quam tempore sapiente! Debitis repellendus ad assumenda repellat!</p>
-          <a href="" class="subtle-button"> Read More </a>
-        </div>
-  </div>
-
-      <div class="card rounded drop-shadow">
-        <a href="" aria-label="">
-          <div
-            class="bg-image square post-item-image"
-            style="background-image:url( '/images/tori-1.webp' );"
-            loading="lazy"
-          ></div>
-        </a>
-
-        <div class="padded-lg">
-          <a href='' class="tag"> stuff </a>
-
-          <a href="" class="blog-title">
-            <h2 class="padded-t-05 padded-b-1 margin-t-05">A blog post</h2>
-          </a>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio provident ut eveniet nihil pariatur recusandae possimus repudiandae neque, inventore debitis saepe quam tempore sapiente! Debitis repellendus ad assumenda repellat!</p>
-          <a href="" class="subtle-button"> Read More </a>
-        </div>
-  </div>
-
-      <div class="card rounded drop-shadow">
-        <a href="" aria-label="">
-          <div
-            class="bg-image square post-item-image"
-            style="background-image:url( '/images/tori-1.webp' );"
-            loading="lazy"
-          ></div>
-        </a>
-
-        <div class="padded-lg">
-          <a href='' class="tag"> stuff </a>
-
-          <a href="" class="blog-title">
-            <h2 class="padded-t-05 padded-b-1 margin-t-05">A blog post</h2>
-          </a>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio provident ut eveniet nihil pariatur recusandae possimus repudiandae neque, inventore debitis saepe quam tempore sapiente! Debitis repellendus ad assumenda repellat!</p>
-          <a href="" class="subtle-button"> Read More </a>
-        </div>
-  </div>
 </section>
 
 <!------------------------ Subscribe banner  ------------------------>

@@ -34,20 +34,46 @@ $(document).ready(function () {
 
   // addBackground();
 
-  // Flickity
-  $(".carousel").flickity({
-    // options
-    cellAlign: "center",
-    wrapAround: true,
-  });
-});
-
-//Slick
-
-$(document).ready(function () {
+  // Slick
   $(".featured-blogs-slick").slick({
+    settings: "unslick",
     lazyLoad: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 815,
+        settings: {
+          slidesToShow: 1,
+          arrows: true,
+          accessibility: true,
+          dots: true,
+          prevArrow:
+            '<button type="button" class="slick-custom-arrow slick-prev" aria-label="Previous" type="button"> < </button>',
+          nextArrow:
+            '<button type="button" class="slick-custom-arrow slick-next" aria-label="Next" type="button"> > </button>',
+        },
+      },
+    ],
+  });
+
+  $(".category-slick").slick({
+    lazyLoad: true,
+    // centerMode: true,
+    slidesToShow: 3,
+    arrows: true,
+    prevArrow:
+      '<button type="button" class="slick-custom-arrow slick-prev" aria-label="Previous" type="button"> < </button>',
+    nextArrow:
+      '<button type="button" class="slick-custom-arrow slick-next" aria-label="Next" type="button"> > </button>',
+    responsive: [
+      {
+        breakpoint: 815,
+        settings: {
+          slidesToShow: 1,
+          accessibility: true,
+        },
+      },
+    ],
   });
 });
 
