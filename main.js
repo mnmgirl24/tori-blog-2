@@ -58,7 +58,6 @@ $(document).ready(function () {
 
   $(".category-slick").slick({
     lazyLoad: true,
-    // centerMode: true,
     slidesToShow: 3,
     arrows: true,
     prevArrow:
@@ -67,7 +66,7 @@ $(document).ready(function () {
       '<button type="button" class="slick-custom-arrow slick-next" aria-label="Next" type="button"> > </button>',
     responsive: [
       {
-        breakpoint: 815,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           accessibility: true,
@@ -138,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   scrollFeaturePost
     .add(createFadeIn("#featured-blog-loop .subhead", {}))
-    .add(createFadeIn(".featured-blogs", {}), "<0.2");
+    .add(createFadeIn(".featured-blogs-slick", {}), "<0.2");
 
   let scrollBlogCats = gsap.timeline({
     scrollTrigger: {
@@ -149,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   scrollBlogCats
     .add(createFadeIn("#blog-topics .subhead", {}))
-    .add(createFadeIn("#blog-topics .carousel", {}), "<0.2");
+    .add(createFadeIn("#blog-topics .category-slick", {}), "<0.2");
 
   let scrollAboutBanner = gsap.timeline({
     scrollTrigger: {
@@ -204,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollTrigger: {
       trigger: ".contact-block",
       toggleActions: "play none none none",
-      start: "50% bottom",
+      // start: "50% bottom",
     },
   });
 
