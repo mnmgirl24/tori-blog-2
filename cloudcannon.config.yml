@@ -1,0 +1,134 @@
+paths:
+  uploads: uploads
+  uploads_use_relative_path: false
+  static: ''
+  dam_uploads: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: _posts
+    output: true
+    icon: notes
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  archives:
+    path: _archives
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  portfolio:
+    path: _portfolio
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  content:
+    type: text
+    options:
+      styles: /editor.css
+      blockquote: true
+      horizontalrule: true
+      format: p h1 h2 h3 h4 h5 h6
+      bold: true
+      italic: true
+      numberedlist: true
+      bulletedlist: true
+      code: true
+      table: true
+      right: right
+      center: center
+      left: left
+      embed: true
+      link: true
+      undo: true
+      redo: true
+      underline: true
+      strike: true
+      image: true
+      design: true
+    cascade: true
+_select_data:
+  aspect-ratios:
+    - square
+    - portrait
+    - portrait-tall
+    - landscape
+  image-frames:
+    - leaf-frame-1
+    - leaf-frame-2
+    - no-frame
+  background-positions:
+    bg-pos-t: Top
+    bg-pos-b: Bottom
+    bg-pos-l: Left
+    bg-pos-r: Right
+    bg-pos-c: Center
+  layouts:
+    default: Blank default page
+    post: Blog post with no sidebar
+    post-with-sidebar: Blog post with sidebar (recommended)
+  column-sizes:
+    col-6: One Half
+    col-12: Full Width
+    col-4: One Third
+    col-3: One Quarter
+    col-6_sm-12: One Half (Stacked)
+    col-4_sm-12: One Third (Stacked)
+    col-3_sm-12: One Quarter (Stacked)
+  background-colors:
+    bg-accent: Accent Color Background
+    bg-featured: Featured Color Background
+    bg-accent-light: Light Accent Background
+    bg-featured-light: Light Featured Color Background
+    bg-secondary: Secondary Color Background
+    bg-accent-light-split-right: Light Accent Right Split Background
+    bg-accent-light-split-left: Light Accent Left Split Background
+    bg-featured-light-split-right: Light Featured Right Split Background
+    bg-featured-light-split-left: Light Featured Left Split Background
+    bg-accent-light-split-top: Light Accent Top Split Background
+    bg-accent-light-split-bottom: Light Accent Bottom Split Background
+    bg-featured-light-split-top: Light Featured Top Split Background
+    bg-featured-light-split-bottom: Light Featured Bottom Split Background
+  gallery-types:
+    - Popup Gallery
+    - Standard Gallery
+timezone: Etc/UTC
