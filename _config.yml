@@ -11,12 +11,15 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:slug
+    schema: _schemas/new_post.yml
   archives:
     output: true
     permalink: /blog/category/:title
+    schema: _schemas/new_category.yml
   portfolio:
     output: true
     permalink: /portfolio/:year/:slug
+    schema: _schemas/new_project.yml
 
 defaults:
   - scope:

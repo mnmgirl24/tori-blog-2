@@ -915,6 +915,8 @@ nav a:hover {
   padding: 15vw;
   top: 3rem;
   right: 0;
+  left: 0;
+  bottom: 0;
   position: sticky;
   background-color: var(--accent);
   z-index: 3;

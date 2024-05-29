@@ -1,0 +1,73 @@
+_editor:
+  layout: post-with-sidebar
+  path: _drafts/:slug
+
+title:
+  type: text
+  label: Title
+  comment: "Max 70 characters"
+
+description:
+  type: textarea
+  label: Description
+
+author:
+  type: text
+  label: Author
+
+featured:
+  type: checkbox
+  label: Featured
+
+categories:
+  type: list
+  label: Categories
+  items:
+    type: text
+
+featured-image:
+  type: group
+  label: Featured Image
+  fields:
+    featured_image:
+      type: image
+      label: Featured Image
+    alt:
+      type: text
+      label: Alt Text
+
+seo:
+  type: group
+  label: SEO
+  fields:
+    title:
+      type: text
+      label: SEO Title
+    description:
+      type: textarea
+      label: SEO Description
+    social_image:
+      type: image
+      label: Social Image
+    twitter_card:
+      type: text
+      label: Twitter Card
+    keywords:
+      type: text
+      label: Keywords
+    hide-from-google:
+      type: checkbox
+      label: Hide from Google
+
+_comments:
+  type: group
+  label: Comments
+  fields:
+    title:
+      type: text
+      label: Title Comment
+      default: "Max 70 characters"
+    social_image:
+      type: text
+      label: Social Image Comment
+      default: "Landscape 1200 x 600px"
