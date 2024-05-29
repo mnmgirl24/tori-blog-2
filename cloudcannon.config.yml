@@ -28,7 +28,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       default:
-        path: .cloudcannon/schemas/new-post.md
+        path: ./schemas/new-post.md
   pages:
     path: ""
     output: true
@@ -46,7 +46,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       default:
-        path: .cloudcannon/schemas/new-category.md
+        path: ./schemas/new-category.md
   portfolio:
     path: _portfolio
     output: true
@@ -56,7 +56,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       default:
-        path: .cloudcannon/schemas/new-project.md
+        path: ./schemas/new-project.md
 _inputs:
   categories:
     type: multiselect
