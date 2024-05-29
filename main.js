@@ -85,20 +85,6 @@ lightGallery(document.getElementById("lightgallery"), {
 // GSAP
 
 document.addEventListener("DOMContentLoaded", function () {
-  let screenLoadTimeline = gsap.timeline({
-    duration: 1,
-    delay: 1,
-    ease: "elastic",
-  });
-
-  screenLoadTimeline
-    .to(".top-screen-load", { xPercent: -100 }, 1)
-    .to(".bottom-screen-load", { xPercent: 100 }, 1);
-
-  gsap.registerPlugin(ScrollTrigger);
-
-  console.log(gsap);
-
   function createFadeIn(target, options) {
     return gsap.from(target, {
       yPercent: options.yPercent || 50,
