@@ -26,9 +26,9 @@ contact:
 
 <!------------------------ Contact form ------------------------>
 <section
-  class="padded-md grid-spaceAround-middle bg-accent-light-split-right contact-block"
+  class="padded-md contact-form bg-accent-light-split-right contact-block"
 >
-  <div class="col-4_sm-12-middle">
+  <div class="">
     <div
       class="bg-image {{ page.contact.aspect-ratio }} {{ page.contact.image-frame }} drop-shadow padded-sm {{ page.contact.background-position }}"
       style="background-image: url('{{ page.contact.contact_image }}');"
@@ -36,12 +36,69 @@ contact:
       loading="lazy"
     ></div>
   </div>
-  <div class="col-7_sm-12-middle padded-md">
+  <div class="padded-md">
     <p class="editable sm-padded-t-1">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione
       dolore earum voluptatem minus! Amet possimus, cupiditate omnis ea facere
       provident alias quis autem quia ipsum accusamus obcaecati aliquam
       repellat.
     </p>
+
+    <div>
+      <form action="https://formspree.io/f/xleqkqqn" method="POST">
+        <label for="first-name">First name*</label>
+        <input
+          type="text"
+          name="First name"
+          id="first-name"
+          placeholder="First name"
+          required
+        />
+
+        <label for="last-name">Last name*</label>
+        <input
+          type="text"
+          name="Last name"
+          id="last-name"
+          placeholder="Last name"
+          required
+        />
+
+        <label for="pronouns"> Pronouns</label>
+        <input
+          type="text"
+          name="Pronouns"
+          id="pronouns"
+          placeholder="Pronouns"
+        />
+
+        <label for="_replyto">Email address*</label>
+        <input
+          type="email"
+          name="Email"
+          id="_replyto"
+          placeholder="Email address"
+          required
+        />
+
+        <label for="company-name"> Company name</label>
+        <input
+          type="text"
+          name="Company name"
+          id="company-name"
+          placeholder="Company name"
+        />
+
+        <label for="message"> Message*</label>
+        <textarea
+          id="message"
+          required
+          name="Message"
+          placeholder="Please write your message here."
+        ></textarea>
+
+        <button type="submit" class="button featured-button">Send</button>
+      </form>
+    </div>
   </div>
 </section>

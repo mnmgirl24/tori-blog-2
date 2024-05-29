@@ -806,7 +806,7 @@ p a {
 
 /* ------------ Header & Hamburger Menu -------------- */
 header {
-  padding: 1rem 5%;
+  padding: 0.5rem;
 }
 
 nav a,
@@ -995,7 +995,116 @@ footer a {
   border-bottom: none;
 }
 
+.social-icons nav {
+  flex-direction: row;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: right;
+}
+
 /* ------------ Contact Forms  ----------------------- */
+
+.contact-form {
+  display: flex;
+  align-items: flex-start;
+  gap: 5vw;
+}
+
+.contact-form > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+form {
+  margin-bottom: 5svh;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: var(--light);
+  transition: 0.15s ease-in;
+  line-height: 1.25;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: var(--featured);
+}
+
+form option {
+  padding: 0.5rem;
+}
+
+form option:hover {
+  background-color: var(--accent);
+}
+
+form option:target {
+  background-color: var(--light);
+}
+
+textarea {
+  min-height: 7rem;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: var(--dark-text);
+  font-weight: 500;
+}
+
+form fieldset {
+  border: none;
+}
+
+form fieldset input {
+  width: auto;
+}
+
+form fieldset input:hover {
+  border-color: var(--featured);
+}
+
+form fieldset label {
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+form button {
+  margin-top: 1rem;
+}
+
+#mc_embed_signup_scroll {
+  display: flex;
+  gap: 1rem;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.mc-field-group {
+  flex-grow: 3;
+}
+
+.mc-field-group label {
+  text-align: left;
+}
+
+.optionalParent {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 2;
+}
 
 /* ------------ Blogging elements  ----------------------- */
 
@@ -1257,6 +1366,24 @@ hr.short.center {
   grid-column: span 5;
 }
 
+/* Privacy policy page */
+.privacy-policy {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.privacy-policy h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 /* ------------ Responsive Styles ----------------------- */
 
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */
@@ -1473,6 +1600,20 @@ hr.short.center {
 
   .cta h2 {
     font-size: 1.7rem;
+  }
+
+  .social-icons svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  #mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-content: space-between;
+    justify-content: center;
   }
 }
 
