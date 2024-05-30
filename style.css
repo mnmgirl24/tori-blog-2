@@ -1093,6 +1093,10 @@ form button {
   justify-content: center;
 }
 
+.mc-field-group {
+  min-width: 25%;
+}
+
 .mc-field-group label {
   text-align: left;
 }
