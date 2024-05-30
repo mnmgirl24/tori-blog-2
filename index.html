@@ -80,11 +80,11 @@ seo:
           <a href='/{{ item | replace: " ", "-"  }}' class="tag"> {{item}} </a>
           {% endfor %}
 
-          <a href="{{ post.url }}" class="blog-title">
+          <a href="{{ post.url }}" class="blog-title" title="{{ post.title }}">
             <h2 class="padded-t-05 padded-b-1 margin-t-05">{{ post.title }}</h2>
           </a>
           <p>{{ post.description | truncatewords: 17 }}</p>
-          <a href="{{ post.url }}" class="subtle-button"> Read More </a>
+          <a href="{{ post.url }}" class="subtle-button" title="{{ post.title }}"> Read More </a>
         </div>
       </div>
 
