@@ -1101,6 +1101,10 @@ form button {
   text-align: left;
 }
 
+#mce-responses {
+  margin-left: -1rem;
+}
+
 .optionalParent {
   display: flex;
   align-items: flex-end;
