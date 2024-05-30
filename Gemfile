@@ -8,3 +8,6 @@ gem "jekyll"
 
 #Plugins
 gem "jekyll-paginate-v2"
+
+# Rake
+gem 'rake'
