@@ -1090,12 +1090,7 @@ form button {
 #mc_embed_signup_scroll {
   display: flex;
   gap: 1rem;
-  align-content: space-between;
   justify-content: center;
-}
-
-.mc-field-group {
-  flex-grow: 3;
 }
 
 .mc-field-group label {
@@ -1105,7 +1100,6 @@ form button {
 .optionalParent {
   display: flex;
   align-items: flex-end;
-  flex-grow: 2;
 }
 
 /* ------------ Blogging elements  ----------------------- */
