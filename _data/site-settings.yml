@@ -7,7 +7,7 @@ seo:
   author: Victoria Congdon
   favicon_image:
 social:
-  instagram_username:
+  instagram_username: example
   facebook_url:
   linkedin_url:
   twitter_username:
@@ -15,13 +15,13 @@ social:
   tiktok_username:
   email: victoriacongdon152@gmail.com
 design:
-  dark-text_color: "#201e1f"
-  medium-text_color: "#5a5a5f"
-  light-text_color: "#fcfdfe"
-  featured-text_color: "#8a9b68"
-  featured_color: "#8a9b68"
-  featured-light_color: "#c6cdb5"
-  secondary_color: "#fbd799"
-  accent_color: "#e38fa3"
-  accent-light_color: "#f7dde2"
-  light_color: "#fcfdfe"
+  dark-text_color: '#201e1f'
+  medium-text_color: '#5a5a5f'
+  light-text_color: '#fcfdfe'
+  featured-text_color: '#8a9b68'
+  featured_color: '#8a9b68'
+  featured-light_color: '#c6cdb5'
+  secondary_color: '#fbd799'
+  accent_color: '#e38fa3'
+  accent-light_color: '#f7dde2'
+  light_color: '#fcfdfe'
