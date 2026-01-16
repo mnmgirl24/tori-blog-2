@@ -1,11 +1,16 @@
 plugins:
   - jekyll-paginate-v2
+  - jekyll-get
 
 pagination:
   enabled: true
   per_page: 11
   sort_reverse: true
   category: "posts"
+
+jekyll_get:
+  data: substack
+  json: https://acallcomingfrom.substack.com/feed
 
 collections:
   posts:

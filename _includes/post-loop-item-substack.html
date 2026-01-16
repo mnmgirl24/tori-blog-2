@@ -1,0 +1,30 @@
+<div class="post-item padded-1 margin-b-2 blog-post">
+  <div class="card rounded drop-shadow">
+
+    <a href="{{ post.link }}" target="_blank" rel="noopener" aria-label="{{ post.title }}">
+      <div
+        class="bg-image square post-item-image"
+        style="background-image:url('/assets/images/substack-placeholder.jpg');"
+      ></div>
+    </a>
+
+    <div class="padded-lg">
+
+      <p class="blog-date">
+        {{ post.pubDate | date: "%B %-d, %Y" }}
+      </p>
+
+      <a href="{{ post.link }}" target="_blank" rel="noopener" class="blog-title">
+        <h2 class="padded-tb">{{ post.title }}</h2>
+      </a>
+
+      <p>
+        {{ post.description | strip_html | truncatewords: 17 }}
+      </p>
+
+      <a href="{{ post.link }}" target="_blank" rel="noopener" class="subtle-button">
+        Read on Substack
+      </a>
+    </div>
+  </div>
+</div>
